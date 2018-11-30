@@ -1,9 +1,19 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 nav {
-  background-color: #a3a3a3 !important;
+  background: transparent !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 nav .navbar-brand {
   font-family: 'Shadows Into Light Two', cursive !important;
+  color: #000000 !important;
 }
 
 nav .animated-icon1 {
@@ -33,7 +43,7 @@ nav .animated-icon1 span {
 }
 
 nav .animated-icon1 span {
-  background: #eeeeee;
+  background-color: #000000 !important;
   height: 1px !important;
 }
 
@@ -64,5 +74,9 @@ nav .animated-icon1.open span:nth-child(3) {
   top: 11px;
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
+}
+
+nav .carousel-item {
+  max-height: 80% !important;
 }
 /*# sourceMappingURL=style.css.map */
