@@ -10,3 +10,14 @@ $(document).ready(function () {
     $('.animated-icon1').toggleClass('open');
     });   
 });
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() < 200) {
+        $("footer").slideUp();
+    }
+    else {
+        $("footer").slideDown();
+    }
+});
+
+

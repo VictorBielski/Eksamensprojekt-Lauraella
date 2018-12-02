@@ -12,41 +12,14 @@
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
         <link rel="stylesheet" href="style.css"  type="text/css">
     <title>Lauraella</title>
-
   </head>
   <body>
 
-<section id="landing">
-    <!--Navbar-->
-<nav class="navbar navbar-expand-lg fixed-top">
+<!-- NAVBAR INCLUDE-->
+<?php 
+    include 'nav.php';
+?>
 
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Lauraella</a>
-  
-    <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
-      aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
-      <div class="animated-icon1"><span></span><span></span><span></span></div>
-    </button>
-  
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse text-center mt-3 mr-3" id="navbarSupportedContent20">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link mt-2" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mt-2" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mt-2" href="#">Pricing</a>
-        </li>
-      <li class="nav-item">
-        <button type="button" id="bazar_btn" class="btn">BAZAR</button>
-      </li>
-      </ul>
-    </div>
-</nav>
 <!--Carousel Wrapper-->
 <div id="img_slider" class="carousel slide carousel-fade" data-ride="carousel">
     <!--Indicators-->
@@ -68,7 +41,7 @@
             <h3 class="slider_h3">First text</h3>
         </div>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item jarallax">
         <!--Mask color-->
         <div class="view">
           <img class="slider" src="images/slider_1.jpg"  alt="Second slide">
@@ -107,14 +80,25 @@
 </section>
 
 <section id="about">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1></h1>
+        <h1 class="text-center mt-5" id="about_intro">Hvem er Lauraella?</h1>
       </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-12 text-center">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi commodi possimus nulla corrupti et enim architecto, provident quis ut iusto quod facere at aliquam sunt cupiditate consequatur. Saepe mollitia minima quibusdam placeat molestias, fugiat quia iure eum, eaque atque voluptates dolorum molestiae ipsam harum commodi animi qui quaerat unde dolorem.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi commodi possimus nulla corrupti et enim architecto, provident quis ut iusto quod facere at aliquam sunt cupiditate consequatur. Saepe mollitia minima quibusdam placeat molestias, fugiat quia iure eum, eaque atque voluptates dolorum molestiae ipsam harum commodi animi qui quaerat unde dolorem.</p> 
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi commodi possimus nulla corrupti et enim architecto, provident quis ut iusto quod facere at aliquam sunt cupiditate consequatur. Saepe mollitia minima quibusdam placeat molestias, fugiat quia iure eum, eaque atque voluptates dolorum molestiae ipsam harum commodi animi qui quaerat unde dolorem.</p>   
     </div>
   </div>
 </section>
+
+<?php 
+    include 'footer.php';
+?>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
