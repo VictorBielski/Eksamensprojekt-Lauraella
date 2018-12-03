@@ -1,42 +1,55 @@
-$primarycolor: #a3a3a3;
-$secondarycolor: #eeeeee;
-$thirdcolor: #000000;
+$primarycolor: #edece8;
+$secondarycolor: #ffffff;
+$thirdcolor: #c2c2b2;
+$textcolor: #1a1a1a;
+$hovercolortext: #000000;
 
 body {
     width: 100% !important;
     height: 100% !important;
+    background-color: $primarycolor;
+    font-family: 'Slabo 27px', serif;
 }
 
+#header {
+    background-color: $primarycolor !important;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 1px;
+    height: 120px !important;
+
+.logo {
+    font-family: 'Slabo 27px', serif;
+    font-size: 45px !important;
+    color: $textcolor;
+    letter-spacing: 10px !important;
+}
+
+.logo:hover {
+    color: $hovercolortext;
+}
+}
+
+
+
 nav {
-    background: transparent !important;
+    background: $thirdcolor !important;
     box-shadow: none !important;
 
-    .navbar-brand {
-        font-family: 'Shadows Into Light Two';
-        font-size: 30px !important;
-        color: $secondarycolor;
-    }
-
     .nav-item a {
-        color: $thirdcolor;
+        color: $textcolor;
         list-style: none;
         padding-right: 25px !important;
         position: relative;
         text-decoration: none;
         font-size: 18px;
+        font-family: 'Slabo 27px', serif;
+        letter-spacing: 2px !important;
     }
 
     .nav-item a:hover {
-        color: $thirdcolor;
+        color: $hovercolortext;
     }
 
-    #bazar_btn {
-        font-size: 12px !important;
-        box-shadow: none !important;
-        background-color: transparent !important;
-        border: 1px solid $secondarycolor !important;
-        color: $thirdcolor !important;
-    }
 
     .animated-icon1 {
         width: 30px;
@@ -111,46 +124,46 @@ nav {
         }
 }
 
-#img_slider {
-    height: 100vh !important;
-
-    .carousel-inner {
-        height: 100vh !important;
+#landing {
+    background-color: $secondarycolor;
+    max-height: 400px !important;
+    
+    #img_carousel {
+        max-height: 400px !important;
     }
 
-    .carousel-item .active {
-        height: 100vh !important;
+    .carousel-item {
+       max-height: 400px !important;
+        width: 100% !important;
     }
 
-    .view {
-        height: 100vh !important;
-    }
-
-    .slider_h1 {
-        margin-bottom: 0 !important;
-    }
-    .slider_h3 {
-        margin-bottom: 10% !important;
-    }
-
-    .slider {
-        background-attachment: fixed;
-    }
-
-    .carousel-control-prev-icon {
-        width: 100px !important;
+    .carousel-indicators {
+        max-height: 400px !important;
     }
 }
+
 
 #about {
-    height: 80vh !important;
+    height: 500px !important;
+    background-image: url(./images/about.jpg) !important;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 
-    #about_intro {
-        font-family: 'Shadows Into Light Two' !important;
-        font-size: 40px !important;
+    #overlay {
+        height: 500px !important;
+        background-color: $primarycolor !important;
+        opacity: 0.5 !important;
     }
 }
 
+
 #footer {
-    height: 20vh !important;
+    height: 25vh !important;
+    background-color: $textcolor !important;
+    color: $secondarycolor !important;
+
+    ul {
+        list-style: none !important;
+    }
 }
