@@ -34,9 +34,9 @@
 
 
 <section id="landing">
-  <div class="container-fluid mt-3">
+  <div class="container-fluid mt-2">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 p-0">
         <!-- IMAGE SLIDER START -->
         <div id="img_carousel" class="carousel slide carousel-fade" data-ride="carousel">
           <!--INDICATORS START-->
@@ -51,17 +51,17 @@
           <div class="carousel-inner" role="listbox">
             <!--First slide-->
             <div class="carousel-item active">
-              <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg" alt="First slide">
+              <img class="d-block w-100" src="./images/slider_1.jpg" alt="First slide">
             </div>
             <!--/First slide-->
             <!--Second slide-->
             <div class="carousel-item">
-              <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg" alt="Second slide">
+              <img class="d-block w-100" src="./images/slider_2.jpg" alt="Second slide">
             </div>
             <!--/Second slide-->
             <!--Third slide-->
             <div class="carousel-item">
-              <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" alt="Third slide">
+              <img class="d-block w-100" src="./images/slider_3.jpg" alt="Third slide">
             </div>
             <!--/Third slide-->
           <a class="carousel-control-prev" href="#img_carousel" role="button" data-slide="prev">
@@ -78,36 +78,39 @@
     </div>
 </section>
 
-<section id="mini_galleri">
-  <div class="container-fluid">
+<section id="mini_gallery">
+  <div class="container-fluid justify-content-center">
     <div class="row mt-4">
-      <div class="col-lg-3 col-sm-6 mini_gallery">
+      <div class="col-lg-3 col-md-3 col-sm-12 mt-2 mini_gallery">
           <img src="./images/galleri_1.jpg" class="img-fluid">
       </div>
-      <div class="col-lg-3 col-sm-6 mini_gallery">
+      <div class="col-lg-3 col-md-3 col-sm-12 mt-2 mini_gallery">
           <img src="./images/galleri_2.jpg" class="img-fluid">
       </div>
-      <div class="col-lg-3 col-sm-6 mini_gallery">
+      <div class="col-lg-3 col-md-3 col-sm-12 mt-2 mini_gallery">
           <img src="./images/galleri_1.jpg" class="img-fluid">
       </div>
-      <div class="col-lg-3 col-sm-6 mini_gallery">
+      <div class="col-lg-3 col-md-3 col-sm-12 mt-2 mini_gallery">
           <img src="./images/galleri_2.jpg" class="img-fluid">
       </div>
     </div>
-    <div class="row mt-4">
-      <div class="col-12 text-center">
-        <a href="produkter.php"><p class="text-center">Se alle produkter</p></a>
+</div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 mt-4 text-center">
+        <p>Alle produkter</p>
+        <i class="fas fa-angle-down fa-2x"></i>
       </div>
-</div>  
+    </div>
   </div>
 </section>
 
 
 
 <section id="about">
-  <div class="container-fluid mt-4 m-0 mask flex-center rgba-cyan-slight" id="overlay">
+  <div class="container-fluid mt-5 m-0 rgba-cyan-slight" id="overlay">
     <div class="row">
-      <div class="col-6">
+      <div class="col-10">
           <h1>Lauraella</h1>
           <h3>Vi skræddersyer produkter efter dine behov</h3>
       </div>

@@ -1,12 +1,12 @@
 body {
   width: 100% !important;
   height: 100% !important;
-  background-color: #edece8;
+  background-color: #f3f2ea;
   font-family: 'Slabo 27px', serif;
 }
 
 #header {
-  background-color: #edece8 !important;
+  background-color: !important;
   font-family: 'Slabo 27px', serif;
   letter-spacing: 1px;
   height: 120px !important;
@@ -24,7 +24,7 @@ body {
 }
 
 nav {
-  background: #c2c2b2 !important;
+  background: #ceceb0 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
@@ -71,7 +71,7 @@ nav .animated-icon1 span {
 }
 
 nav .animated-icon1 span {
-  background-color: #c2c2b2;
+  background-color: #1a1a1a !important;
   height: 1px !important;
 }
 
@@ -106,20 +106,20 @@ nav .animated-icon1.open span:nth-child(3) {
 
 #landing {
   background-color: #ffffff;
-  max-height: 400px !important;
+  max-height: 450px !important;
 }
 
 #landing #img_carousel {
-  max-height: 400px !important;
+  max-height: 450px !important;
 }
 
 #landing .carousel-item {
-  max-height: 400px !important;
+  max-height: 280px !important;
   width: 100% !important;
 }
 
 #landing .carousel-indicators {
-  max-height: 400px !important;
+  max-height: 450px !important;
 }
 
 #about {
@@ -127,22 +127,59 @@ nav .animated-icon1.open span:nth-child(3) {
   background-image: url(./images/about.jpg) !important;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  width: 100% !important;
 }
 
 #about #overlay {
   height: 500px !important;
-  background-color: #edece8 !important;
+  background-color: #f3f2ea !important;
   opacity: 0.5 !important;
 }
 
+#about .col-10 {
+  margin-top: 10% !important;
+  margin-left: 8% !important;
+}
+
+#about .col-10 h1 {
+  font-size: 80px !important;
+}
+
+#about .col-10 h3 {
+  font-size: 30px !important;
+}
+
 #footer {
-  height: 25vh !important;
+  height: 65vh !important;
   background-color: #1a1a1a !important;
   color: #ffffff !important;
 }
 
 #footer ul {
   list-style: none !important;
+}
+
+@media (min-width: 576px) {
+  #footer {
+    height: 56vh !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #footer {
+    height: 23vh !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #mini_gallery {
+    height: 45vh !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #mini_gallery {
+    height: 60vh !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

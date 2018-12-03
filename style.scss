@@ -1,6 +1,6 @@
-$primarycolor: #edece8;
+$primarycolor: #f3f2ea;
 $secondarycolor: #ffffff;
-$thirdcolor: #c2c2b2;
+$thirdcolor: #ceceb0;
 $textcolor: #1a1a1a;
 $hovercolortext: #000000;
 
@@ -12,7 +12,7 @@ body {
 }
 
 #header {
-    background-color: $primarycolor !important;
+    background-color:  !important;
     font-family: 'Slabo 27px', serif;
     letter-spacing: 1px;
     height: 120px !important;
@@ -86,7 +86,7 @@ nav {
         }
         
         .animated-icon1 span {
-        background-color: $thirdcolor;
+        background-color: $textcolor !important;
         height: 1px !important;
         }
         
@@ -126,21 +126,22 @@ nav {
 
 #landing {
     background-color: $secondarycolor;
-    max-height: 400px !important;
+    max-height: 450px !important;
     
     #img_carousel {
-        max-height: 400px !important;
+        max-height: 450px !important;
     }
 
     .carousel-item {
-       max-height: 400px !important;
+       max-height: 280px !important;
         width: 100% !important;
     }
 
     .carousel-indicators {
-        max-height: 400px !important;
+        max-height: 450px !important;
     }
 }
+
 
 
 #about {
@@ -148,18 +149,27 @@ nav {
     background-image: url(./images/about.jpg) !important;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
-
+    width: 100% !important;
     #overlay {
         height: 500px !important;
         background-color: $primarycolor !important;
         opacity: 0.5 !important;
     }
+    .col-10 {
+        margin-top: 10% !important;
+        margin-left: 8% !important;
+    }
+    .col-10 h1 {
+        font-size: 80px !important;
+    }
+    .col-10 h3 {
+        font-size: 30px !important;
+    }
 }
 
 
 #footer {
-    height: 25vh !important;
+    height: 65vh !important;
     background-color: $textcolor !important;
     color: $secondarycolor !important;
 
@@ -167,3 +177,34 @@ nav {
         list-style: none !important;
     }
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    #footer {
+        height: 56vh !important;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #footer {
+        height: 23vh !important;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    #mini_gallery {
+        height: 45vh !important;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    #mini_gallery {
+        height: 60vh !important;
+
+    }
+
+
+ }

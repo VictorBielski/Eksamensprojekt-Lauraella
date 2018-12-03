@@ -16,7 +16,7 @@
   </head>
   <body>
   
-<div class="container-fluid p-0 mb-2">
+<div class="container-fluid p-0">
 <nav class="navbar navbar-expand-lg">
 <!-- Collapse button -->
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
