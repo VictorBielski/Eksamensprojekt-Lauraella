@@ -13,7 +13,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-        <link rel="stylesheet" href="style.css"  type="text/css">
+        <link rel="stylesheet" href="./stylesheets/style.css"  type="text/css">
     <title>Lauraella</title>
   </head>
   <body>
@@ -29,7 +29,7 @@
 </div>
 <!-- NAVBAR INCLUDE-->
 <?php 
-    include 'nav.php';
+    include './layout/nav.php';
 ?>
 
 
@@ -79,30 +79,23 @@
 </section>
 
 <section id="mini_gallery">
-  <div class="container-fluid justify-content-center">
-    <div class="row mt-4">
-      <div class="col-lg-3 col-md-3 col-sm-12 mt-2 mini_gallery">
-          <img src="./images/galleri_1.jpg" class="img-fluid">
+  <div class="container-fluid">
+    <div class="row mt-3 justify-content-center">
+      <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery">
+          <img class="img-fluid" src="./images/galleri_1.jpg">
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-12 mt-2 mini_gallery">
-          <img src="./images/galleri_2.jpg" class="img-fluid">
+      <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery">
+          <img class="img-fluid" src="./images/galleri_2.jpg">
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-12 mt-2 mini_gallery">
-          <img src="./images/galleri_1.jpg" class="img-fluid">
+      <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery">
+          <img class="img-fluid" src="./images/galleri_1.jpg">
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-12 mt-2 mini_gallery">
-          <img src="./images/galleri_2.jpg" class="img-fluid">
+      <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery"> 
+          <img class="img-fluid" src="./images/galleri_2.jpg">
       </div>
+
     </div>
 </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 mt-4 text-center">
-        <p>Alle produkter</p>
-        <i class="fas fa-angle-down fa-2x"></i>
-      </div>
-    </div>
-  </div>
 </section>
 
 
@@ -120,7 +113,7 @@
 
 
 <?php 
-    include 'footer.php';
+    include './layout/footer.php';
 ?>
 
 

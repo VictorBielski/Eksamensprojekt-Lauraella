@@ -143,10 +143,9 @@ nav {
 }
 
 
-
 #about {
     height: 500px !important;
-    background-image: url(./images/about.jpg) !important;
+    background-image: url(/images/galleri_1.jpg) !important;
     background-attachment: fixed;
     background-size: cover;
     width: 100% !important;
@@ -180,8 +179,12 @@ nav {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
+
+    
+
     #footer {
         height: 56vh !important;
+
     }
 }
 

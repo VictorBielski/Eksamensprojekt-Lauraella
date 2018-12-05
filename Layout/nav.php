@@ -8,49 +8,44 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <!-- Material Design Bootstrap -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/css/mdb.min.css" rel="stylesheet">
-        <!--Font Awesome -->
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
-        <link rel="stylesheet" href="style.css"  type="text/css">
+        <link rel="stylesheet" href="./stylesheets/style.css"  type="text/css">
     <title>Lauraella</title>
 
   </head>
   <body>
+  
+<div class="container-fluid p-0">
+<nav class="navbar navbar-expand-lg">
+<!-- Collapse button -->
+<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+  aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="animated-icon1"><span></span><span></span><span></span></div>
+</button>
 
-<footer class="page-footer" id="footer">
-<div class="container-fluid justify-content-center">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12 text-center mt-3">
-        <ul class="text-center">
-        <h5 class="mt-2">Åbningstider</h5>
-        <p>Mandag - Fredag..... 10.00-18.00</p>
-        <p>Lørdag....................... 10.00-14.00</p>
-        <p>Søndag.......................10.00-16.00</p>
-        </ul>
-    </div>
-  <div class="col-lg-4 col-md-4 col-sm-12 text-center mt-3">
-    <ul>
-    <h5 class="mt-2">Lokation</h5>
-      <li class="mt-2"><a href="#">Kongevejen 13</a></li>
-      <li class="mt-2"><a href="#">2791 Dragør</a></li>
-      <li class="mt-2"><a href="#">Danmark</a></li>
-    </ul>
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-12 text-center mt-3">
-    <ul>
-    <h5 class="mt-2">Kontakt</h5>
-    <li class="mt-2"><a href="#">Lauraella@mail.com</a></li>
-      <li class="mt-2"><a href="#">32 53 00 18</a></li>
-      <i class="fab fa-facebook fa-2x mt-1 mt-2"></i>
-    </ul>
-  </div>
-
-  </div>
+<!-- Collapsible content -->
+<div class="collapse navbar-collapse text-center" id="navbarSupportedContent20">
+  <ul class="navbar-nav mx-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Forside<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="produkter.php">Produkter</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Om os</a>
+    </li>
+        <li class="nav-item">
+      <a class="nav-link" href="#">Kontakt</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">BAZAR</a>
+    </li>
+  </ul>
 </div>
-</footer>
-<!-- Footer -->
-      
+</nav>
+</div>     
    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
