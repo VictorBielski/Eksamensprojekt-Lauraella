@@ -42,8 +42,8 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
             <h3>'.$row["titleGallery"].'</h3>
             <p>'.$row["descGallery"].'</p>
 
-            <form action="deletepostit.php" method="post">	
-            <input type="hidden" name="pid" value="'<?=$pid?>''">
+            <form action="delete.php" method="post">	
+            <input type="hidden" name="idg" value="'.$row["idGallery"].'">
             <input class="img" type="image" src="images/trash.png" alt="Delete">
             </form>
         </div> ';

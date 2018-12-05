@@ -13,7 +13,7 @@
 	
 <?php
 	
-$postitid = filter_input(INPUT_POST, 'pid', FILTER_VALIDATE_INT) 
+$idGallery = filter_input(INPUT_POST, 'idg', FILTER_VALIDATE_INT) 
 	or die ('Missing or illegal id parameter');
 $userid = $_SESSION['users_id'];
 	
@@ -21,8 +21,8 @@ $userid = $_SESSION['users_id'];
 	
    $mysqlstring = 'DELETE FROM gallery WHERE idGallery=?';
    $stmt = $link->prepare($mysqlstring);
-   $stmt ->bind_param('i', $postitid);
-   
+   $stmt ->bind_param('i', $idGallery);
+
 	/* $mysqlstring = 'DELETE FROM postit WHERE id=? AND users_id=? OR users_id=1';
 	$stmt = $link->prepare($mysqlstring);
 	$stmt ->bind_param('iii', $postitid, $userid, $userid); */
