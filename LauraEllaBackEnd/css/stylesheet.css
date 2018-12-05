@@ -1,6 +1,47 @@
-.myRow {
-  width: 100%;
-  height: 500px;
-  background-color: grey;
+/*.myRow {
+    width: 100%;
+    height: 500px;
+    background-color: grey !important;
+}*/
+body {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #edece1 !important;
+  font-family: 'Slabo 27px' !important;
+}
+
+#intro {
+  margin-top: 4% !important;
+}
+
+#intro h1 {
+  font-family: 'Slabo 27px' !important;
+  letter-spacing: 5px !important;
+  font-size: 50px !important;
+}
+
+#form {
+  margin-top: 4% !important;
+}
+
+#form form {
+  background-color: #c2be9a !important;
+  -webkit-box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.75);
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+#form input {
+  border-radius: 0 !important;
+  border: 0 !important;
+  height: 55px;
+}
+
+#form button {
+  background-color: #3a3a3a !important;
+  font-size: 20px;
 }
 /*# sourceMappingURL=stylesheet.css.map */
