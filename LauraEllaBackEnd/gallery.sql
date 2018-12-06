@@ -8,4 +8,6 @@ CREATE TABLE gallery (
     orderGallery LONGTEXT not null
 );
 
-SELECT * FROM gallery;
+SELECT * FROM gallery
+
+

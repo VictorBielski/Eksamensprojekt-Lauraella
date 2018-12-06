@@ -1,17 +1,7 @@
 <?php
 	session_start();
-?>
 
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
-
-<body>
 	
-<?php
 	
 $idGallery = filter_input(INPUT_POST, 'idg', FILTER_VALIDATE_INT) 
 	or die ('Missing or illegal id parameter');
@@ -19,20 +9,15 @@ $userid = $_SESSION['users_id'];
 	
 	require_once('dbcon.php');
 	
-   $mysqlstring = 'DELETE FROM gallery WHERE idGallery=?';
-   $stmt = $link->prepare($mysqlstring);
-   $stmt ->bind_param('i', $idGallery);
+   $sql = 'DELETE FROM gallery WHERE idGallery=?';
+   $stmt = mysqli_stmt_init($link);
+   		if (!mysqli_stmt_prepare($stmt, $sql)) {
+    		echo "SQL statement failed!";
+		} else { 
+			mysqli_stmt_bind_param($stmt, "i", $idGallery);
+			mysqli_stmt_execute($stmt);
+		}
 
-	/* $mysqlstring = 'DELETE FROM postit WHERE id=? AND users_id=? OR users_id=1';
-	$stmt = $link->prepare($mysqlstring);
-	$stmt ->bind_param('iii', $postitid, $userid, $userid); */
-	$stmt -> execute();
+		
+	header("Location: /LauraElla/fileselect.php?delete=success");
 	
-	
-		echo 'Deleted '.$stmt->affected_rows.' picture';
-	
-?>
-	<a href="fileSelect.php">Klik for at vende tilbage!</a>
-	
-</body>
-</html>

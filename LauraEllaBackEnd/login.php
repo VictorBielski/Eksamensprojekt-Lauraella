@@ -29,7 +29,8 @@ $pw = filter_input(INPUT_POST, 'pw') or die ('Missing or illegal pw parameter');
 	while ($stmt->fetch()) {}
 	
 	if(password_verify($pw, $pwhash)){
-			echo 'Username and password matched user with id: '.$id.' <a href="fileSelect.php">klik for at gå videre!</a> ';
+		header("Location: /LauraElla/fileselect.php");
+			
 			$_SESSION['users_id'] = $id;
 			$_SESSION['uname'] = $un;
 		} else {
