@@ -30,11 +30,11 @@
     		<div class="col-lg-4 col-md-8 col-sm-12">
 		
 		<!-- Default form login -->
-      		<form action="login.php" class="text-center border border-light p-5">
+      		<form action="login.php" method="POST" class="text-center border border-light p-5">
         		<p class="h4 mb-4">Log ind</p>
-        			<input type="email" id="defaultLoginFormEmail" name="un" class="form-control mb-4" placeholder="Brugernavn">
+        			<input type="text" id="defaultLoginFormEmail" name="un" class="form-control mb-4" placeholder="Brugernavn">
         			<input type="password" id="defaultLoginFormPassword" name="pw" class="form-control mb-4" placeholder="Kodeord">
-        			<button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+        			<button class="btn btn-info btn-block my-4" type="submit">Log ind</button>
       		</form>
     		</div>
   		</div>
