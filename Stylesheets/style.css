@@ -44,6 +44,16 @@ nav .nav-item a:hover {
   color: #000000;
 }
 
+nav .dropdown-menu {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: #ceceb0 !important;
+}
+
+nav .dropdown-menu .nav-link:hover {
+  background-color: #ceceb0 !important;
+}
+
 nav .animated-icon1 {
   width: 30px;
   height: 20px;
@@ -124,7 +134,7 @@ nav .animated-icon1.open span:nth-child(3) {
 
 #about {
   height: 500px !important;
-  background-image: url(/images/galleri_1.jpg) !important;
+  background-image: url(/Eksamensprojekt-Lauraella/images/about.jpg) !important;
   background-attachment: fixed;
   background-size: cover;
   width: 100% !important;
