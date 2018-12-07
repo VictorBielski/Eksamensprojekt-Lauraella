@@ -10,7 +10,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/css/mdb.min.css" rel="stylesheet">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
-        <link rel="stylesheet" href="./stylesheets/style.css"  type="text/css">
+        <link rel="stylesheet" href="/Eksamensprojekt-Lauraella/stylesheets/style.css"  type="text/css">
     <title>Lauraella</title>
 
   </head>
@@ -28,25 +28,25 @@
 <div class="collapse navbar-collapse text-center" id="navbarSupportedContent20">
   <ul class="navbar-nav mx-auto">
     <li class="nav-item active">
-      <a class="nav-link" href="#">Forside<span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="index.php">Forside<span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">Vores varer</a>
         <div class="dropdown-menu dropdown-primary p-0" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="produkter.php">Alle produkter</a>
           <a class="dropdown-item" href="#">Another action</a>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Om os</a>
+      <a class="nav-link" href="omos.php">Om os</a>
     </li>
         <li class="nav-item">
-      <a class="nav-link" href="#">Kontakt</a>
+      <a class="nav-link" href="kontakt.php">Kontakt</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">BAZAR</a>
+      <a class="nav-link" href="bazar.php">BAZAR</a>
     </li>
   </ul>
 </div>
