@@ -10,6 +10,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/css/mdb.min.css" rel="stylesheet">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
         <link rel="stylesheet" href="/Eksamensprojekt-Lauraella/Stylesheets/style.css"  type="text/css">
     <title>Lauraella</title>
   </head>
@@ -32,21 +33,21 @@
 ?>
 
 
-<div class="container">
-    <div class="row">
-        <div class="col-12 text-center">
-            <h1>Produkter</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maxime quaerat magni possimus nostrum officiis nobis, deleniti reprehenderit excepturi dolore quisquam ipsam repudiandae assumenda labore in magnam molestias. Perferendis, corrupti.</p>
-                
+<section id="kontakt">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div id="map"></div>
+            </div>
+            <div class="col-5">
+                <form></form>
+            </div>
+        </div>
+    </div>
 
 
-</div>
-</div>
 
-
-</div>
-
-
+</section>
 <?php 
     include 'footer.php';
 ?>
@@ -59,6 +60,29 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/js/mdb.min.js"></script>
-    <script src="script.js" type="text/javascript"></script>
+    <script src="/Eksamensprojekt-Lauraella/scripts/script.js" type="text/javascript"></script>
+
+
+        <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 55.594010, lng: 12.672576};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 15, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+    </script>
+
   </body>
 </html>

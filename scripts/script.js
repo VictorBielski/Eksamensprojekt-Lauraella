@@ -19,5 +19,3 @@ $(window).scroll(function() {
         $("footer").slideDown();
     }
 });
-
-

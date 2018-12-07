@@ -169,6 +169,11 @@ nav .animated-icon1.open span:nth-child(3) {
   list-style: none !important;
 }
 
+#map {
+  height: 400px !important;
+  width: 100% !important;
+}
+
 @media (min-width: 576px) {
   #footer {
     height: 56vh !important;
