@@ -168,9 +168,33 @@ nav .animated-icon1.open span:nth-child(3) {
   list-style: none !important;
 }
 
-#map {
-  height: 400px !important;
+#kontakt #map {
+  height: 500px !important;
   width: 100% !important;
+}
+
+#kontakt hr {
+  border: none;
+  border-left: 1px solid #73848c;
+  height: 100%;
+  width: 1px;
+  margin-top: 0 !important;
+}
+
+#kontakt #kontaktform .form-control {
+  border-radius: 0 !important;
+  resize: none;
+  outline: none !important;
+  border: 0 !important;
+  background-color: transparent;
+  border-bottom: 0.5px solid #1a1a1a !important;
+}
+
+#kontakt #kontaktform .btn {
+  border-radius: 0 !important;
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  width: 50% !important;
 }
 
 @media (min-width: 576px) {
