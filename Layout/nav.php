@@ -10,7 +10,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/css/mdb.min.css" rel="stylesheet">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
-        <link rel="stylesheet" href="/Eksamensprojekt-Lauraella/stylesheets/style.css"  type="text/css">
+        <link rel="stylesheet" href="stylesheets/style.css"  type="text/css">
     <title>Lauraella</title>
 
   </head>
@@ -59,6 +59,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/js/mdb.min.js"></script>
-    <script src="script.js" type="text/javascript"></script>
+    <script src="scripts/script.js" type="text/javascript"></script>
   </body>
 </html>

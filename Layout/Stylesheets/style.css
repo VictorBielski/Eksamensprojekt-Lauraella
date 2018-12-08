@@ -6,7 +6,6 @@ body {
 }
 
 #header {
-  background-color: !important;
   font-family: 'Slabo 27px', serif;
   letter-spacing: 1px;
   height: 120px !important;
@@ -134,7 +133,7 @@ nav .animated-icon1.open span:nth-child(3) {
 
 #about {
   height: 500px !important;
-  background-image: url(/Eksamensprojekt-Lauraella/images/about.jpg) !important;
+  background-image: url(images/about.jpg) !important;
   background-attachment: fixed;
   background-size: cover;
   width: 100% !important;

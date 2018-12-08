@@ -11,7 +11,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-        <link rel="stylesheet" href="/Eksamensprojekt-Lauraella/Stylesheets/style.css"  type="text/css">
+        <link rel="stylesheet" href="Stylesheets/style.css"  type="text/css">
     <title>Lauraella</title>
   </head>
   <body>
@@ -37,7 +37,7 @@
 <div class="container-fluid">
     <div class="row mt-5 justify-content-center">
         <div class="col-5">
-            <img class="img-fluid" id="om_img" src="/Eksamensprojekt-Lauraella/images/om_img.png">
+            <img class="img-fluid" id="om_img" src="images/om_img.png">
         </div>
         <div class="col-5">
             <h1 class="text-center mt-2">Hvad er Lauraella?</h1>
@@ -53,7 +53,7 @@
             <p class="mt-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda corrupti nisi repellat deserunt necessitatibus non totam eaque rem rerum, nihil, velit accusantium delectus hic est voluptas sint in! Necessitatibus, ab. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt ipsum totam deserunt nulla nobis quibusdam, ea vero non et, quis optio, recusandae cumque? Doloribus cum, eius accusamus atque temporibus</p>
         </div>
         <div class="col-5">
-            <img class="img-fluid" id="om_img" src="/Eksamensprojekt-Lauraella/images/om_img.png">
+            <img class="img-fluid" id="om_img" src="images/om_img.png">
         </div>
     </div>
 </div>
@@ -70,6 +70,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/js/mdb.min.js"></script>
-    <script src="script.js" type="text/javascript"></script>
+    <script src="scripts/script.js" type="text/javascript"></script>
   </body>
 </html>

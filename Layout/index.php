@@ -13,7 +13,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-        <link rel="stylesheet" href="/Eksamensprojekt-Lauraella/stylesheets/style.css"  type="text/css">
+        <link rel="stylesheet" href="stylesheets/style.css"  type="text/css">
     <title>Lauraella</title>
   </head>
   <body>
@@ -29,7 +29,7 @@
 </div>
 <!-- NAVBAR INCLUDE-->
 <?php 
-    include './nav.php';
+    include 'nav.php';
 ?>
 
 
@@ -51,17 +51,17 @@
           <div class="carousel-inner" role="listbox">
             <!--First slide-->
             <div class="carousel-item active">
-              <img class="d-block w-100" src="/Eksamensprojekt-Lauraella/images/slider_1.jpg" alt="First slide">
+              <img class="d-block w-100" src="images/slider_1.jpg" alt="First slide">
             </div>
             <!--/First slide-->
             <!--Second slide-->
             <div class="carousel-item">
-              <img class="d-block w-100" src="/Eksamensprojekt-Lauraella/images/slider_1.jpg" alt="Second slide">
+              <img class="d-block w-100" src="images/slider_1.jpg" alt="Second slide">
             </div>
             <!--/Second slide-->
             <!--Third slide-->
             <div class="carousel-item">
-              <img class="d-block w-100" src="/Eksamensprojekt-Lauraella/images/slider_1.jpg" alt="Third slide">
+              <img class="d-block w-100" src="images/slider_1.jpg" alt="Third slide">
             </div>
             <!--/Third slide-->
           <a class="carousel-control-prev" href="#img_carousel" role="button" data-slide="prev">
@@ -82,16 +82,16 @@
   <div class="container-fluid">
     <div class="row mt-3 justify-content-center">
       <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery">
-          <img class="img-fluid" src="/Eksamensprojekt-Lauraella/images/galleri_1.jpg">
+          <img class="img-fluid" src="images/galleri_1.jpg">
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery">
-          <img class="img-fluid" src="/Eksamensprojekt-Lauraella/images/galleri_1.jpg">
+          <img class="img-fluid" src="images/galleri_1.jpg">
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery">
-          <img class="img-fluid" src="/Eksamensprojekt-Lauraella/images/galleri_1.jpg">
+          <img class="img-fluid" src="images/galleri_1.jpg">
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery"> 
-          <img class="img-fluid" src="/Eksamensprojekt-Lauraella/images/galleri_1.jpg">
+          <img class="img-fluid" src="images/galleri_1.jpg">
       </div>
 
     </div>
@@ -113,7 +113,7 @@
 
 
 <?php 
-    include './footer.php';
+    include 'footer.php';
 ?>
 
 
@@ -124,6 +124,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/js/mdb.min.js"></script>
-    <script src="/Eksamensprojekt-Lauraella/scripts/script.js" type="text/javascript"></script>
+    <script src="scripts/script.js" type="text/javascript"></script>
   </body>
 </html>
