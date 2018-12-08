@@ -13,7 +13,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-        <link rel="stylesheet" href="/Eksamensprojekt-Lauraella/stylesheets/style.css"  type="text/css">
+        <link rel="stylesheet" href="Stylesheets/style.css"  type="text/css">
     <title>Lauraella</title>
 
   </head>
