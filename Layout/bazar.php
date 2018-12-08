@@ -33,7 +33,28 @@
     include 'nav.php';
 ?>
 
+<div class="container">
 
+    <div class="row text-center">
+
+        <div class="col-12">
+            <h1>Laura Ella Bazar!</h1>
+        </div>
+
+    <!-- Row end -->
+    </div>
+
+    <div class="row justify-content-center">
+
+        <div class="col-8">
+            <p>1 gang om måneden holder vi Laura Ella Bazar, hvor vi opkøber kellektionsprøver fra vores leverandører, og her kan du gøre en rigtig god handel, idet varerne typisk bliver solgt med 50 til 70 % rabat!</p>
+        </div>
+
+    <!-- Row end -->
+    </div>
+
+<!-- Container end -->
+</div>
 
 
 
