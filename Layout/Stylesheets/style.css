@@ -200,6 +200,38 @@ nav .animated-icon1.open span:nth-child(3) {
   width: 50% !important;
 }
 
+#bazar #countdown {
+  height: 100% !important;
+  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/bazar_img.jpg) !important;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+}
+
+#bazar .col-6 {
+  background-color: #ffffff;
+  opacity: 0.9;
+  font-family: 'Paytone One', sans-serif;
+  border: 8px solid #000000;
+}
+
+#bazar .col-6 h1 {
+  font-size: 60px !important;
+  font-weight: bold;
+  opacity: 100% !important;
+  color: #1a1a1a !important;
+  letter-spacing: 4px !important;
+}
+
+#bazar .col-6 p {
+  font-size: 70px !important;
+  font-weight: bold;
+  opacity: 100% !important;
+  color: #1a1a1a !important;
+  letter-spacing: 4px !important;
+}
+
 @media (min-width: 576px) {
   #footer {
     height: 56vh !important;

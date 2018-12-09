@@ -13,6 +13,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
         <link rel="stylesheet" href="stylesheets/style.css"  type="text/css">
     <title>Lauraella</title>
   </head>
@@ -33,28 +34,29 @@
     include 'nav.php';
 ?>
 
-<div class="container">
-
-    <div class="row text-center">
-
-        <div class="col-12">
-            <h1>Laura Ella Bazar!</h1>
+<section id="bazar" class="rgba-cyan-slight">
+<div class="container-fluid" id="countdown">
+    <div class="row text-center justify-content-center">
+        <div class="col-6 mt-3 mb-3">
+            <h1 class="mt-2">Laura Ella Bazar</h1>
+            <p id="demo"></p>
         </div>
-
-    <!-- Row end -->
     </div>
-
-    <div class="row justify-content-center">
-
-        <div class="col-8">
-            <p>1 gang om måneden holder vi Laura Ella Bazar, hvor vi opkøber kellektionsprøver fra vores leverandører, og her kan du gøre en rigtig god handel, idet varerne typisk bliver solgt med 50 til 70 % rabat!</p>
-        </div>
-
-    <!-- Row end -->
-    </div>
-
-<!-- Container end -->
 </div>
+</section>
+
+<section id="ombazar">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-7 text-center mt-3">
+                <h1>Gør et kup til Laura Ella Bazar</h1>
+            </div>
+            <div class="col-7 text-center mt-3 mb-3">
+                <p>1 gang om måneden holder vi Laura Ella Bazar, hvor vi opkøber kellektionsprøver fra vores leverandører, og her kan du gøre en rigtig god handel, idet varerne typisk bliver solgt med 50 til 70 % rabat!</p>
+            </div>
+    </div>
+</div>
+
 
 
 
@@ -70,7 +72,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/js/mdb.min.js"></script>
-    <script src="scripts/script.js" type="text/javascript"></script>
+    <script src=".scripts/script.js" type="text/javascript"></script>
       
   </body>
   </html>

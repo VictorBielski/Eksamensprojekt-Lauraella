@@ -225,7 +225,42 @@ nav {
     }
 }
 
+#bazar {
 
+
+    #countdown {
+        height: 100% !important;
+        background-image: url(/Eksamensprojekt-Lauraella/Layout/images/bazar_img.jpg) !important;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-blend-mode: darken;
+
+    }
+
+    .col-6 {
+        background-color: $secondarycolor;
+        opacity: 0.9;
+        font-family: 'Paytone One', sans-serif;
+        border: 8px solid $hovercolortext;
+
+        h1 {
+            font-size: 60px !important;
+            font-weight: bold;
+            opacity: 100% !important;
+            color: $textcolor !important;
+            letter-spacing: 4px !important;
+        }
+    
+        p {
+            font-size: 70px !important;
+            font-weight: bold;
+            opacity: 100% !important;
+            color: $textcolor !important;
+            letter-spacing: 4px !important;
+        }
+    }
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
