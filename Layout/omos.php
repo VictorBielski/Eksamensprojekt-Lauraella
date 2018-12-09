@@ -38,7 +38,7 @@
 
 <section id="omos">
 <div class="container mb-5">
-    <div class="row mt-5 justify-content-center">
+    <div class="row mt-5 justify-content-center" data-aos="zoom-in">
         <div class="col-sm-12 col-md-12 col-lg-6">
             <img class="img-fluid" id="om_img" src="images/om_img.png">
         </div>
@@ -51,7 +51,7 @@
 <!-- Row end -->
     </div>
 
-    <div class="row mt-5 justify-content-center">
+    <div class="row mt-5 justify-content-center" data-aos="zoom-in">
 
         <div class="col-sm-12 col-md-12 col-lg-6 order-lg-1">
             <img class="img-fluid" id="om_img" src="images/om_img.png">
