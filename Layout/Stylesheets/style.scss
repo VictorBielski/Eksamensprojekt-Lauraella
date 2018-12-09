@@ -176,13 +176,16 @@ nav {
 }
 
 
-#footer {
-    height: 65vh !important;
+.card-footer {
     background-color: $textcolor !important;
     color: $secondarycolor !important;
 
     ul {
         list-style: none !important;
+
+    li a {
+        color: white !important;
+    }
     }
 }
 

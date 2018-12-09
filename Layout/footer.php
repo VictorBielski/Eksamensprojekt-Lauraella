@@ -19,7 +19,7 @@
   </head>
   <body>
 
-<footer class="page-footer" id="footer">
+<footer class="card-footer">
 <div class="container-fluid justify-content-center">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12 text-center mt-3">
@@ -41,8 +41,8 @@
   <div class="col-lg-4 col-md-4 col-sm-12 text-center mt-3">
     <ul>
     <h5 class="mt-2">Kontakt</h5>
-    <li class="mt-2"><a href="#">Lauraella@mail.com</a></li>
-      <li class="mt-2"><a href="#">32 53 00 18</a></li>
+    <li class="mt-2"><a href="mailto:helle@lauraella.dk">helle@lauraella.dk</a></li>
+      <li class="mt-2"><a href="tel:+45-32-53-00-18">32 53 00 18</a></li>
       <i class="fab fa-facebook fa-2x mt-1 mt-2"></i>
       <i class="fab fa-instagram fa-2x mt-1 ml-2"></i>
     </ul>

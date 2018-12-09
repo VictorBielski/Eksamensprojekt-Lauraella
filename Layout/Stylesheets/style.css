@@ -158,14 +158,17 @@ nav .animated-icon1.open span:nth-child(3) {
   font-size: 30px !important;
 }
 
-#footer {
-  height: 65vh !important;
+.card-footer {
   background-color: #1a1a1a !important;
   color: #ffffff !important;
 }
 
-#footer ul {
+.card-footer ul {
   list-style: none !important;
+}
+
+.card-footer ul li a {
+  color: white !important;
 }
 
 #kontakt #map {
