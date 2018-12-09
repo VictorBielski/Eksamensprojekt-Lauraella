@@ -17,7 +17,7 @@
   <body>
   
 <div class="container-fluid p-0">
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-sm">
 <!-- Collapse button -->
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
   aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
