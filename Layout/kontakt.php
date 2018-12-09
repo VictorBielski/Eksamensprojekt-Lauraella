@@ -45,28 +45,28 @@
             <div class="col-5">
             <h1 class="text-center">Mangler du hjælp?</h1>
             <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aspernatur reprehenderit, eveniet sint ex accusantium, alias minima distinctio dicta inventore.</p>
-            <form action="" id="kontaktform">
+            <form action="contact.php" method="POST" id="kontaktform">
                 <div class="row mt-3">
                     <div class="col-lg-6">
                     <div class="form-group">
-                        <input type="text" class="form-control mt-3 p-0" placeholder="Navn" required>
+                        <input type="text" name="name" class="form-control mt-3 p-0" placeholder="Navn" required>
                     </div>
                     </div>
                     <div class="col-lg-6">
                     <div class="form-group">
-                        <input type="text" class="form-control mt-3 p-0" placeholder="Email" required>
+                        <input type="email" name="email" class="form-control mt-3 p-0" placeholder="Email" required>
                     </div>
                     </div>
                     <div class="col-lg-12">
                     <div class="form-group">
-                        <input type="email" class="form-control mt-3 p-0" placeholder="Emne" required>
+                        <input type="text" name="subject" class="form-control mt-3 p-0" placeholder="Emne" required>
                     </div>
                     </div>
                 </div>  
                     <div class="row">
                     <div class="col-12">
                     <div class="form-group mt-3">
-                        <textarea class="form-control p-0" id="exampleFormControlTextarea1" placeholder="Din besked..." rows="3" required></textarea>
+                        <textarea type="text" name="message" class="form-control p-0" id="exampleFormControlTextarea1" placeholder="Din besked..." rows="3" required></textarea>
                     </div>
                     </div>
                     <div class="col-12 mt-4 text-center">
