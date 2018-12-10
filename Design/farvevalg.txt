@@ -1,4 +1,4 @@
-#f0f5f9
-#c9d6de
-#52616a
-#1e2022
+#f0f5f9 - Standard skrift
+#c9d6de - Ikoner & footer text
+#52616a - Hover farve over galleri
+#1e2022 - header & footer farve
