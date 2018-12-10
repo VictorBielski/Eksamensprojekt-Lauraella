@@ -3,6 +3,7 @@ $secondarycolor: #ffffff;
 $thirdcolor: #ceceb0;
 $textcolor: #1a1a1a;
 $hovercolortext: #000000;
+$buttoncolor: #3a3a3a;
 
 body {
     width: 100% !important;
@@ -260,6 +261,40 @@ nav {
             letter-spacing: 4px !important;
         }
     }
+}
+
+// EJER LOGIN STYLING //
+
+#intro {
+    margin-top: 4% !important;
+
+    h1 {
+        font-family: 'Slabo 27px' !important;
+        letter-spacing: 5px !important;
+        font-size: 50px !important;
+    }
+}
+
+#form {
+    margin-top: 4% !important;
+    form {
+        background-color: $secondarycolor !important;
+        box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+        border: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    input {
+        border-radius: 0 !important;
+        border: 0 !important;
+        height: 55px;
+    }
+    button {
+        background-color: $buttoncolor !important;
+        font-size: 20px;
+
+    }
+    
 }
 
 // Small devices (landscape phones, 576px and up)

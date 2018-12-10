@@ -232,6 +232,39 @@ nav .animated-icon1.open span:nth-child(3) {
   letter-spacing: 4px !important;
 }
 
+#intro {
+  margin-top: 4% !important;
+}
+
+#intro h1 {
+  font-family: 'Slabo 27px' !important;
+  letter-spacing: 5px !important;
+  font-size: 50px !important;
+}
+
+#form {
+  margin-top: 4% !important;
+}
+
+#form form {
+  background-color: #ffffff !important;
+  -webkit-box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.75);
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+#form input {
+  border-radius: 0 !important;
+  border: 0 !important;
+  height: 55px;
+}
+
+#form button {
+  background-color: #3a3a3a !important;
+  font-size: 20px;
+}
+
 @media (min-width: 576px) {
   #footer {
     height: 56vh !important;
