@@ -32,6 +32,7 @@
     include 'nav.php';
 ?>
 
+<div class="container-fluid p-0" id="baggrund">
 
 <section id="landing">
   <div class="container-fluid mt-2">
@@ -79,26 +80,25 @@
 </section>
 
 <section id="mini_gallery">
-  <div class="container-fluid">
-    <div class="row mt-3 justify-content-center">
-      <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery">
+  <div class="container">
+    <div class="row mt-5 justify-content-center">
+      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
           <img class="img-fluid" src="images/galleri_1.jpg">
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery">
+      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
           <img class="img-fluid" src="images/galleri_1.jpg">
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery">
+      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
           <img class="img-fluid" src="images/galleri_1.jpg">
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 mt-2 mini_gallery"> 
+      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery"> 
           <img class="img-fluid" src="images/galleri_1.jpg">
       </div>
 
     </div>
 </div>
 </section>
-
-
+</div>
 
 <section id="about">
   <div class="container-fluid mt-5 m-0 rgba-cyan-slight" id="overlay">

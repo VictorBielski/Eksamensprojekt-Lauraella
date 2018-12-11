@@ -38,11 +38,11 @@
 
 <section id="omos">
 <div class="container mb-5">
-    <div class="row mt-5 justify-content-center" data-aos="zoom-in">
-        <div class="col-sm-12 col-md-12 col-lg-6">
+    <div class="row justify-content-center" data-aos="zoom-in">
+        <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
             <img class="img-fluid" id="om_img" src="images/om_img.png">
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
             <h1 class="text-center mt-2">Hvad er Lauraella?</h1>
             <p class="mt-3 text-center">Laura Ella er en spændende brugskunstbutik, som har belligenhed i Dragør. Butikken rummer en masse delikatesser og vine, og du får en oplevelse ud over det sædvanlige. Vi laver flotte værtindegaver, firmagaver, venindegaver, kærlighedsgaver samt forkælelsesgaver - alt efter netop dine behov.</p>
             <p class="mt-3 text-center">Laura Ella byder også på mange lækre ting til hjemmet. Puder i de skønneste farver, det populøre porcelæn fra "Pip" og meget mere. Til forskønnelse af krop og sjæl forhander vi det evigt populøre "Durance" fra Frankrig, som laver velværeprodukter, lavet på den rene natur.</p>
@@ -53,11 +53,11 @@
 
     <div class="row mt-5 justify-content-center" data-aos="zoom-in">
 
-        <div class="col-sm-12 col-md-12 col-lg-6 order-lg-1">
+        <div class="col-sm-12 col-md-12 col-lg-6 order-lg-1 mt-5">
             <img class="img-fluid" id="om_img" src="images/om_img.png">
         </div>
 
-        <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
             <h1 class="text-center mt-2">Brugskunst siden "2010"</h1>
             <p class="mt-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda corrupti nisi repellat deserunt necessitatibus non totam eaque rem rerum, nihil, velit accusantium delectus hic est voluptas sint in! Necessitatibus, ab. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt ipsum totam deserunt nulla nobis quibusdam, ea vero non et, quis optio, recusandae cumque? Doloribus cum, eius accusamus atque temporibus</p>
             <p class="mt-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda corrupti nisi repellat deserunt necessitatibus non totam eaque rem rerum, nihil, velit accusantium delectus hic est voluptas sint in! Necessitatibus, ab. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt ipsum totam deserunt nulla nobis quibusdam, ea vero non et, quis optio, recusandae cumque? Doloribus cum, eius accusamus atque temporibus</p>

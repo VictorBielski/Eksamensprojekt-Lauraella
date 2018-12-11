@@ -35,14 +35,14 @@
 
 <section id="kontakt">
     <div class="container-fluid"> 
-        <div class="row m-4 justify-content-center">
-            <div class="col-5 p-0">
+        <div class="row justify-content-center">
+            <div class="col-5 mt-5 mb-5 p-0">
                 <div id="map"></div>
             </div>
             <div class="col-1">
                 <hr>
             </div>      
-            <div class="col-5">
+            <div class="col-5 mt-5 mb-5">
             <h1 class="text-center">Mangler du hjælp?</h1>
             <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aspernatur reprehenderit, eveniet sint ex accusantium, alias minima distinctio dicta inventore.</p>
             <form action="contact.php" method="POST" id="kontaktform">

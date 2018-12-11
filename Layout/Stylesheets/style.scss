@@ -1,14 +1,12 @@
-$primarycolor: #f3f2ea;
-$secondarycolor: #ffffff;
-$thirdcolor: #ceceb0;
-$textcolor: #1a1a1a;
-$hovercolortext: #000000;
-$buttoncolor: #3a3a3a;
+$header_footer: #1E2022;
+$galleri_hover: #52616a;
+$ikoner_footer_tekst: #c9d6de;
+$textcolor: #f0f5f9;
 
 body {
     width: 100% !important;
     height: 100% !important;
-    background-color: $primarycolor;
+    background-color: $header_footer !important;
     font-family: 'Slabo 27px', serif;
 }
 
@@ -25,14 +23,17 @@ body {
 }
 
 .logo:hover {
-    color: $hovercolortext;
+    color: $galleri_hover !important;
+}
+p {
+    color: $textcolor !important;
 }
 }
 
 
 
 nav {
-    background: $thirdcolor !important;
+    background-color: transparent !important;
     box-shadow: none !important;
 
     .nav-item a {
@@ -47,17 +48,12 @@ nav {
     }
 
     .nav-item a:hover {
-        color: $hovercolortext;
+        
     }
 
-    .dropdown-menu {
-        border: 0 !important;
-        border-radius: 0 !important;
-        background: $thirdcolor !important;
+    .dropdown {
+        color: $textcolor !important;
 
-        .nav-link:hover {
-            background-color: $thirdcolor !important;
-        }
     }
 
 
@@ -134,24 +130,33 @@ nav {
         }
 }
 
+#baggrund {
+    background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
+    background-size: cover !important;
+    background-position: center !important;
+
 #landing {
-    background-color: $secondarycolor;
-    max-height: 450px !important;
+    max-height: 300px !important;
     
     #img_carousel {
-        max-height: 450px !important;
+        max-height: 300px !important;
     }
 
     .carousel-item {
-       max-height: 450px !important;
+       max-height: 300px !important;
         width: 100% !important;
     }
 
     .carousel-indicators {
-        max-height: 450px !important;
+        max-height: 300px !important;
     }
 }
 
+#mini_gallery {
+    height: 100% !important;
+}
+
+}
 
 #about {
     height: 500px !important;
@@ -159,9 +164,11 @@ nav {
     background-attachment: fixed;
     background-size: cover;
     width: 100% !important;
+    color: $textcolor !important;
+
     #overlay {
         height: 500px !important;
-        background-color: $primarycolor !important;
+        background-color: $header_footer !important;
         opacity: 0.5 !important;
     }
     .col-10 {
@@ -177,21 +184,41 @@ nav {
 }
 
 
-.card-footer {
-    background-color: $textcolor !important;
-    color: $secondarycolor !important;
+#footer {
+    background-color: $galleri_hover !important;
+    color: $ikoner_footer_tekst !important;
+    height: 100% !important;
 
     ul {
         list-style: none !important;
-
+        color: $ikoner_footer_tekst !important;
+    }
     li a {
         color: white !important;
+        color: $ikoner_footer_tekst !important;
     }
+    .åbningstider_ikon {
+        width: 50px !important;
+        height: 50px !important;
     }
+
+    .kontakt_ikon {
+        width: 30px !important;
+        height: 100% !important;
+        margin: 1%;
+    }
+
+
 }
+//LANDING PAGE SLUT
 
+
+//KONTAKT SIDE START
 #kontakt {
-
+    background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    color: $textcolor !important;
 
     #map {
         height: 500px !important;
@@ -207,6 +234,7 @@ nav {
     }
 
     #kontaktform {
+        color: $textcolor !important;
 
         .form-control {
             border-radius: 0 !important;
@@ -217,50 +245,35 @@ nav {
             border-bottom: .5px solid $textcolor !important;
         }
 
+        input {
+            color: $textcolor !important;
+        }
+
+        input::placeholder {
+            color: $textcolor !important;
+        }
+        textarea {
+            color: $textcolor !important;
+        }
+        textarea::placeholder {
+            color: $textcolor !important;
+        }
+
         .btn {
             border-radius: 0 !important;
-            background-color: $textcolor!important;
-            color: $secondarycolor !important;
+            background-color: $galleri_hover!important;
+            color: $textcolor !important;
             width: 50% !important;
         }
     }
 }
 
-#bazar {
+#omos {
+    background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
+    color: $textcolor !important;
 
 
-    #countdown {
-        height: 100% !important;
-        background-image: url(/Eksamensprojekt-Lauraella/Layout/images/bazar_img.jpg) !important;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        background-blend-mode: darken;
 
-    }
-
-    .col-6 {
-        background-color: $secondarycolor;
-        opacity: 0.9;
-        font-family: 'Paytone One', sans-serif;
-        border: 8px solid $hovercolortext;
-
-        h1 {
-            font-size: 60px !important;
-            font-weight: bold;
-            opacity: 100% !important;
-            color: $textcolor !important;
-            letter-spacing: 4px !important;
-        }
-    
-        p {
-            font-size: 70px !important;
-            font-weight: bold;
-            opacity: 100% !important;
-            color: $textcolor !important;
-            letter-spacing: 4px !important;
-        }
-    }
 }
 
 // EJER LOGIN STYLING //
@@ -278,7 +291,7 @@ nav {
 #form {
     margin-top: 4% !important;
     form {
-        background-color: $secondarycolor !important;
+        background-color: $galleri_hover !important;
         box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
         border: 0 !important;
         border-radius: 0 !important;
@@ -290,7 +303,7 @@ nav {
         height: 55px;
     }
     button {
-        background-color: $buttoncolor !important;
+        background-color: $textcolor !important;
         font-size: 20px;
 
     }
@@ -301,33 +314,21 @@ nav {
 @media (min-width: 576px) { 
 
     
-
-    #footer {
-        height: 56vh !important;
-
-    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    #footer {
-        height: 23vh !important;
-    }
+
+
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
-    #mini_gallery {
-        height: 45vh !important;
-    }
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-    #mini_gallery {
-        height: 60vh !important;
-
-    }
 
 
  }
