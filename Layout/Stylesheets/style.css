@@ -108,59 +108,9 @@ nav .animated-icon1.open span:nth-child(3) {
   transform: rotate(-135deg);
 }
 
-#baggrund {
-  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
-  background-size: cover !important;
-  background-position: center !important;
-}
-
-#baggrund #landing {
-  max-height: 300px !important;
-}
-
-#baggrund #landing #img_carousel {
-  max-height: 300px !important;
-}
-
-#baggrund #landing .carousel-item {
-  max-height: 300px !important;
-  width: 100% !important;
-}
-
-#baggrund #landing .carousel-indicators {
-  max-height: 300px !important;
-}
-
-#baggrund #mini_gallery {
+#mini_gallery {
+  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png);
   height: 100% !important;
-}
-
-#about {
-  height: 500px !important;
-  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/about.jpg) !important;
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100% !important;
-  color: #f0f5f9 !important;
-}
-
-#about #overlay {
-  height: 500px !important;
-  background-color: #1E2022 !important;
-  opacity: 0.5 !important;
-}
-
-#about .col-10 {
-  margin-top: 10% !important;
-  margin-left: 8% !important;
-}
-
-#about .col-10 h1 {
-  font-size: 80px !important;
-}
-
-#about .col-10 h3 {
-  font-size: 30px !important;
 }
 
 #footer {
