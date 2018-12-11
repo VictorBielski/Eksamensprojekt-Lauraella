@@ -36,22 +36,8 @@
     include 'nav.php';
 ?>
 
-
-<div class="container">
-    <div class="row">
-        <div class="col-12 text-center">
-            <h1>Produkter</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maxime quaerat magni possimus nostrum officiis nobis, deleniti reprehenderit excepturi dolore quisquam ipsam repudiandae assumenda labore in magnam molestias. Perferendis, corrupti.</p>
-                
-
-
-</div>
-</div>
-</div>
-
-
-
-<div class="container">
+<section id="sortiment">
+<div class="container w-75">
 
 <div class="row text-center">
     <div class="col-12">
@@ -76,7 +62,7 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
         if (isset($_SESSION['users_id'])) {
             echo '
 
-            <div class="col-sm-8 col-md-8 col-lg-3">
+            <div class="col-sm-8 col-md-8 col-lg-4">
             <img class="img-fluid" src="uploads/'.$row["imgFullNameGallery"].'" alt="placeholder image">
             <h3>'.$row["titleGallery"].'</h3>
             <p>'.$row["descGallery"].'</p>
@@ -89,7 +75,7 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
 
         } else {
         echo ' 
-        <div class="col-sm-8 col-md-8 col-lg-3">
+        <div class="col-sm-8 col-md-8 col-lg-4">
             <img class="img-fluid" src="uploads/'.$row["imgFullNameGallery"].'" alt="placeholder image">
             <h3>'.$row["titleGallery"].'</h3>
             <p>'.$row["descGallery"].'</p> 
@@ -114,18 +100,18 @@ if (isset($_SESSION['users_id'])) {
         <div class="col-4 mt-5">
         <form action="upload.php" method="POST" enctype="multipart/form-data">
         <div class="form-group">
-        <label for="exampleInputEmail1">File name</label>
-        <input class="form-control" type="text" name="filename" placeholder="File name...">
+        <label for="exampleInputEmail1">Fil navn</label>
+        <input class="form-control" type="text" name="filename" placeholder="Fil navn...">
         </div>
     
         <div class="form-group">
-        <label for="exampleInputEmail1">Image title</label>
-        <input class="form-control" type="text" name="filetitle" placeholder="Image title...">
+        <label for="exampleInputEmail1">Titel</label>
+        <input class="form-control" type="text" name="filetitle" placeholder="Billede titel...">
         </div>
     
         <div class="form-group">
-        <label for="exampleInputEmail1">Image description</label>
-        <input class="form-control" type="text" name="filedesc" placeholder="Image description...">
+        <label for="exampleInputEmail1">Pris</label>
+        <input class="form-control" type="text" name="filedesc" placeholder="Pris...">
         </div>
     
         <div class="form-group">
@@ -147,6 +133,7 @@ if (isset($_SESSION['users_id'])) {
 <!-- Container end -->
 </div>
 
+</section>
 <?php
 if (isset($_SESSION['users_id'])) {
     echo '<a href="logout.php">klik for at logge ud!</a>';

@@ -8,6 +8,7 @@ body {
     height: 100% !important;
     background-color: $header_footer !important;
     font-family: 'Slabo 27px', serif;
+    color: $textcolor;
 }
 
 #header {
@@ -168,6 +169,22 @@ nav {
 }
 //LANDING PAGE SLUT
 
+// SORTIMENT PAGE START
+
+#sortiment {
+    background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
+    background-size: cover !important;
+    background-position: center !important;
+
+    .btn {
+        border-radius: 0 !important;
+        background-color: $galleri_hover!important;
+        color: $textcolor !important;
+        width: 50% !important;
+    }
+}
+
+// SORTIMENT PAGE SLUT
 
 //KONTAKT SIDE START
 #kontakt {
