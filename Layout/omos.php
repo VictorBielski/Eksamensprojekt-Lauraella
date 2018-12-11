@@ -20,7 +20,7 @@
   <body>
 
 
- <!--Logo-->
+ <!--Logo
 <div class="container-fluid mt-5 m-0" id="header">
   <div class="row">
     <div class="col-12 text-center">
@@ -28,7 +28,7 @@
         <p>~ Brugskunst i Dragør ~</p>
     </div>
   </div>
-</div> 
+</div> -->
 
 <!-- NAVBAR INCLUDE-->
 <?php 

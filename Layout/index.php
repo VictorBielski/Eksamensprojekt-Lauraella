@@ -18,15 +18,6 @@
   </head>
   <body>
 
-<!--Logo-->
-<div class="container-fluid mt-5 m-0" id="header">
-  <div class="row">
-    <div class="col-12 text-center">
-        <h3><a href="index.php" class="logo">Laura Ella</a></h3>
-        <p>~ Alt hvad vi har i Laura Ella er unødvendigt, det gør bare livet lidt hyggeligere. ~</p>
-    </div>
-  </div>
-</div>
 <!-- NAVBAR INCLUDE-->
 <?php 
     include 'nav.php';
