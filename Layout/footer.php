@@ -19,32 +19,44 @@
   </head>
   <body>
 
-<footer class="card-footer">
+<footer class="card-footer" id="footer">
 <div class="container-fluid justify-content-center">
   <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12 text-center mt-3">
+    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
         <ul class="text-center">
-        <h5 class="mt-2">Åbningstider</h5>
-        <p>Mandag - Fredag..... 10.00-18.00</p>
-        <p>Lørdag....................... 10.00-14.00</p>
-        <p>Søndag.......................10.00-16.00</p>
+        <img class="åbningstider_ikon" src="/Eksamensprojekt-Lauraella/Layout/images/ikoner/opening-hours.png">
+        <p class="mt-3">Mandag - Fredag..... 10.00-18.00</p>
+        <p class="mt-1">Lørdag....................... 10.00-14.00</p>
+        <p class="mt-1">Søndag.......................10.00-16.00</p>
         </ul>
     </div>
-  <div class="col-lg-4 col-md-4 col-sm-12 text-center mt-3">
+  <div class="col-lg-4 col-md-4 col-sm-12 text-center">
     <ul>
-    <h5 class="mt-2">Lokation</h5>
-      <li class="mt-2"><a href="#">Kongevejen 13</a></li>
-      <li class="mt-2"><a href="#">2791 Dragør</a></li>
-      <li class="mt-2"><a href="#">Danmark</a></li>
+    <img class="åbningstider_ikon" src="/Eksamensprojekt-Lauraella/Layout/images/ikoner/location.png">
+      <li class="mt-3"><a href="#">Kongevejen 13</a></li>
+      <li class="mt-1"><a href="#">2791 Dragør</a></li>
+      <li class="mt-1"><a href="#">Danmark</a></li>
     </ul>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-12 text-center mt-3">
     <ul>
-    <h5 class="mt-2">Kontakt</h5>
-    <li class="mt-2"><a href="mailto:helle@lauraella.dk">helle@lauraella.dk</a></li>
-      <li class="mt-2"><a href="tel:+45-32-53-00-18">32 53 00 18</a></li>
-      <i class="fab fa-facebook fa-2x mt-1 mt-2"></i>
-      <i class="fab fa-instagram fa-2x mt-1 ml-2"></i>
+    <div class="row justify-content-center text-center">
+      <div class="col-2">
+      <i class="fas fa-phone fa-3x mt-2"></i>
+    </div>
+        <div class="col-2">
+        <i class="fas fa-envelope fa-3x mt-2"></i>
+    </div>
+</div>
+      <div class="row justify-content-center">
+        <div class="col-2">
+      <i class="fab fa-facebook fa-3x mt-2"></i>
+        </div>
+
+        <div class="col-2">
+      <i class="fab fa-instagram fa-3x mt-2"></i>
+        </div>
+</div>
     </ul>
   </div>
 

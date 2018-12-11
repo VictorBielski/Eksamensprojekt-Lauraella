@@ -1,7 +1,8 @@
+@charset "UTF-8";
 body {
   width: 100% !important;
   height: 100% !important;
-  background-color: #f3f2ea;
+  background-color: #1E2022 !important;
   font-family: 'Slabo 27px', serif;
 }
 
@@ -14,22 +15,26 @@ body {
 #header .logo {
   font-family: 'Slabo 27px', serif;
   font-size: 45px !important;
-  color: #1a1a1a;
+  color: #f0f5f9;
   letter-spacing: 10px !important;
 }
 
 #header .logo:hover {
-  color: #000000;
+  color: #52616a !important;
+}
+
+#header p {
+  color: #f0f5f9 !important;
 }
 
 nav {
-  background: #ceceb0 !important;
+  background-color: transparent !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
 nav .nav-item a {
-  color: #1a1a1a;
+  color: #f0f5f9;
   list-style: none;
   padding-right: 25px !important;
   position: relative;
@@ -39,18 +44,8 @@ nav .nav-item a {
   letter-spacing: 2px !important;
 }
 
-nav .nav-item a:hover {
-  color: #000000;
-}
-
-nav .dropdown-menu {
-  border: 0 !important;
-  border-radius: 0 !important;
-  background: #ceceb0 !important;
-}
-
-nav .dropdown-menu .nav-link:hover {
-  background-color: #ceceb0 !important;
+nav .dropdown {
+  color: #f0f5f9 !important;
 }
 
 nav .animated-icon1 {
@@ -80,7 +75,7 @@ nav .animated-icon1 span {
 }
 
 nav .animated-icon1 span {
-  background-color: #1a1a1a !important;
+  background-color: #f0f5f9 !important;
   height: 1px !important;
 }
 
@@ -113,62 +108,43 @@ nav .animated-icon1.open span:nth-child(3) {
   transform: rotate(-135deg);
 }
 
-#landing {
-  background-color: #ffffff;
-  max-height: 450px !important;
+#mini_gallery {
+  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png);
+  height: 100% !important;
 }
 
-#landing #img_carousel {
-  max-height: 450px !important;
+#footer {
+  background-color: #52616a !important;
+  color: #c9d6de !important;
+  height: 100% !important;
 }
 
-#landing .carousel-item {
-  max-height: 450px !important;
-  width: 100% !important;
-}
-
-#landing .carousel-indicators {
-  max-height: 450px !important;
-}
-
-#about {
-  height: 500px !important;
-  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/about.jpg) !important;
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100% !important;
-}
-
-#about #overlay {
-  height: 500px !important;
-  background-color: #f3f2ea !important;
-  opacity: 0.5 !important;
-}
-
-#about .col-10 {
-  margin-top: 10% !important;
-  margin-left: 8% !important;
-}
-
-#about .col-10 h1 {
-  font-size: 80px !important;
-}
-
-#about .col-10 h3 {
-  font-size: 30px !important;
-}
-
-.card-footer {
-  background-color: #1a1a1a !important;
-  color: #ffffff !important;
-}
-
-.card-footer ul {
+#footer ul {
   list-style: none !important;
+  color: #c9d6de !important;
 }
 
-.card-footer ul li a {
+#footer li a {
   color: white !important;
+  color: #c9d6de !important;
+}
+
+#footer .åbningstider_ikon {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+#footer .kontakt_ikon {
+  width: 30px !important;
+  height: 100% !important;
+  margin: 1%;
+}
+
+#kontakt {
+  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  color: #f0f5f9 !important;
 }
 
 #kontakt #map {
@@ -184,52 +160,69 @@ nav .animated-icon1.open span:nth-child(3) {
   margin-top: 0 !important;
 }
 
+#kontakt #kontaktform {
+  color: #f0f5f9 !important;
+}
+
 #kontakt #kontaktform .form-control {
   border-radius: 0 !important;
   resize: none;
   outline: none !important;
   border: 0 !important;
   background-color: transparent;
-  border-bottom: 0.5px solid #1a1a1a !important;
+  border-bottom: 0.5px solid #f0f5f9 !important;
+}
+
+#kontakt #kontaktform input {
+  color: #f0f5f9 !important;
+}
+
+#kontakt #kontaktform input::-webkit-input-placeholder {
+  color: #f0f5f9 !important;
+}
+
+#kontakt #kontaktform input:-ms-input-placeholder {
+  color: #f0f5f9 !important;
+}
+
+#kontakt #kontaktform input::-ms-input-placeholder {
+  color: #f0f5f9 !important;
+}
+
+#kontakt #kontaktform input::placeholder {
+  color: #f0f5f9 !important;
+}
+
+#kontakt #kontaktform textarea {
+  color: #f0f5f9 !important;
+}
+
+#kontakt #kontaktform textarea::-webkit-input-placeholder {
+  color: #f0f5f9 !important;
+}
+
+#kontakt #kontaktform textarea:-ms-input-placeholder {
+  color: #f0f5f9 !important;
+}
+
+#kontakt #kontaktform textarea::-ms-input-placeholder {
+  color: #f0f5f9 !important;
+}
+
+#kontakt #kontaktform textarea::placeholder {
+  color: #f0f5f9 !important;
 }
 
 #kontakt #kontaktform .btn {
   border-radius: 0 !important;
-  background-color: #1a1a1a !important;
-  color: #ffffff !important;
+  background-color: #52616a !important;
+  color: #f0f5f9 !important;
   width: 50% !important;
 }
 
-#bazar #countdown {
-  height: 100% !important;
-  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/bazar_img.jpg) !important;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-blend-mode: darken;
-}
-
-#bazar .col-6 {
-  background-color: #ffffff;
-  opacity: 0.9;
-  font-family: 'Paytone One', sans-serif;
-  border: 8px solid #000000;
-}
-
-#bazar .col-6 h1 {
-  font-size: 60px !important;
-  font-weight: bold;
-  opacity: 100% !important;
-  color: #1a1a1a !important;
-  letter-spacing: 4px !important;
-}
-
-#bazar .col-6 p {
-  font-size: 70px !important;
-  font-weight: bold;
-  opacity: 100% !important;
-  color: #1a1a1a !important;
-  letter-spacing: 4px !important;
+#omos {
+  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
+  color: #f0f5f9 !important;
 }
 
 #intro {
@@ -247,7 +240,7 @@ nav .animated-icon1.open span:nth-child(3) {
 }
 
 #form form {
-  background-color: #ffffff !important;
+  background-color: #52616a !important;
   -webkit-box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.75);
   border: 0 !important;
@@ -261,31 +254,7 @@ nav .animated-icon1.open span:nth-child(3) {
 }
 
 #form button {
-  background-color: #3a3a3a !important;
+  background-color: #f0f5f9 !important;
   font-size: 20px;
-}
-
-@media (min-width: 576px) {
-  #footer {
-    height: 56vh !important;
-  }
-}
-
-@media (min-width: 768px) {
-  #footer {
-    height: 23vh !important;
-  }
-}
-
-@media (min-width: 992px) {
-  #mini_gallery {
-    height: 45vh !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  #mini_gallery {
-    height: 60vh !important;
-  }
 }
 /*# sourceMappingURL=style.css.map */

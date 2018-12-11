@@ -38,8 +38,8 @@
 
 <section id="omos">
 <div class="container mb-5">
-    <div class="row mt-5 justify-content-center" data-aos="zoom-in">
-        <div class="col-sm-12 col-md-12 col-lg-6">
+    <div class="row justify-content-center" data-aos="zoom-in">
+        <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
             <img class="img-fluid" id="om_img" src="images/om_img.png">
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
