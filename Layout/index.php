@@ -61,10 +61,25 @@
         </div>
     </div>
   </div>
+  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_2.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">Juleøl</p>
+        </div>
+    </div>
 </div>
 <!--ANDET ROW -->
     <div class="row justify-content-center">
       <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_5.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">Juletræslys</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_5.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -91,6 +106,14 @@
 </div>
 <!--TREDJE ROW -->
     <div class="row justify-content-center mb-5">
+      <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_7.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">Lys til hjemmet</p>
+        </div>
+    </div>
+  </div>
       <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_7.jpg">

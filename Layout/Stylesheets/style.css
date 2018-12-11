@@ -36,12 +36,9 @@ body {
 }
 
 nav {
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0.534) !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  border: 1px solid #f0f5f9 !important;
-  border-left: 0 !important;
-  border-right: 0 !important;
 }
 
 nav .nav-item a {
@@ -122,6 +119,11 @@ nav .animated-icon1.open span:nth-child(3) {
 #mini_gallery {
   background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png);
   height: 100% !important;
+  width: 100% !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 #mini_gallery .mask .overlay_tekst {

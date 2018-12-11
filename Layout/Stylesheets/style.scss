@@ -2,6 +2,7 @@ $header_footer: #1E2022;
 $galleri_hover: #52616a;
 $ikoner_footer_tekst: #c9d6de;
 $textcolor: #f0f5f9;
+$navcolor: rgba(0, 0, 0, 0.534);
 
 @font-face {
     font-family: 'SF Fourche'; /*a name to be used later*/
@@ -14,6 +15,7 @@ body {
     background-color: $header_footer !important;
     font-family: 'Slabo 27px', serif;
     color: $textcolor;
+
 }
 
 #header {
@@ -39,11 +41,8 @@ p {
 
 
 nav {
-    background-color: transparent !important;
+    background-color: $navcolor !important;
     box-shadow: none !important;
-    border: 1px solid $textcolor !important;
-    border-left: 0 !important;
-    border-right: 0 !important;
 
     .nav-item a {
         color: $textcolor;
@@ -143,6 +142,11 @@ nav {
 #mini_gallery {
     background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png);
     height: 100% !important;
+    width: 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 
     .mask {
         
