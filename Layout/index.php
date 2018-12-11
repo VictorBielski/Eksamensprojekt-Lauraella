@@ -22,7 +22,7 @@
 <div class="container-fluid mt-5 m-0" id="header">
   <div class="row">
     <div class="col-12 text-center">
-        <h3><a href="index.php" class="logo">Lauraella</a></h3>
+        <h3><a href="index.php" class="logo">Laura Ella</a></h3>
         <p>~ Brugskunst i Dragør ~</p>
     </div>
   </div>
@@ -35,40 +35,92 @@
 
 <section id="mini_gallery">
   <div class="container">
-    <div class="row mt-5 justify-content-center">
-      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
-          <img class="img-fluid" src="images/galleri_1.jpg">
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
-          <img class="img-fluid" src="images/galleri_1.jpg">
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
-          <img class="img-fluid" src="images/galleri_1.jpg">
-      </div>
+    <!--FØRSTE ROW -->
+    <div class="row justify-content-center">
+      <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_1.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">Julegodter</p>
+        </div>
     </div>
+  </div>
+  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_9.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">Gavepose</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_3.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">"Lyden af Jul"</p>
+        </div>
+    </div>
+  </div>
+</div>
+<!--ANDET ROW -->
+    <div class="row justify-content-center">
+      <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_5.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">Juletræslys</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_8.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">Juletræspynt</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_6.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">Juledekorationer</p>
+        </div>
+    </div>
+  </div>
+</div>
+<!--TREDJE ROW -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_7.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">Lys til hjemmet</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_4.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">Vin & Champagne</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+        <div class="view overlay">
+          <img class="img-fluid" src="images/galleri_img/galleri_img_2.jpg">
+          <div class="mask flex-center rgba-blue-grey-light">
+          <p class="overlay_tekst">Juleøl</p>
+        </div>
+    </div>
+  </div>
+</div>
 
-        <div class="row mt-5 justify-content-center">
-      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
-          <img class="img-fluid" src="images/galleri_1.jpg">
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
-          <img class="img-fluid" src="images/galleri_1.jpg">
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
-          <img class="img-fluid" src="images/galleri_1.jpg">
-      </div>
-    </div>
-    <div class="row mt-5 justify-content-center mb-5">
-      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
-          <img class="img-fluid" src="images/galleri_1.jpg">
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
-          <img class="img-fluid" src="images/galleri_1.jpg">
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 mini_gallery">
-          <img class="img-fluid" src="images/galleri_1.jpg">
-      </div>
-    </div>
+
+
+
+
 </div>
 </section>
 

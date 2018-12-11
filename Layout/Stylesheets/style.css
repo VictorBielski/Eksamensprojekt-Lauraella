@@ -1,4 +1,11 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'SF Fourche';
+  /*a name to be used later*/
+  src: url(/Layout/fonts/SFFourcheBold.ttf);
+  /*URL to font*/
+}
+
 body {
   width: 100% !important;
   height: 100% !important;
@@ -13,10 +20,10 @@ body {
 }
 
 #header .logo {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'SF Fourche';
   font-size: 45px !important;
   color: #f0f5f9;
-  letter-spacing: 10px !important;
+  letter-spacing: 15px !important;
 }
 
 #header .logo:hover {
@@ -31,6 +38,9 @@ nav {
   background-color: transparent !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+  border: 1px solid #f0f5f9 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
 }
 
 nav .nav-item a {
@@ -111,6 +121,11 @@ nav .animated-icon1.open span:nth-child(3) {
 #mini_gallery {
   background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png);
   height: 100% !important;
+}
+
+#mini_gallery .mask .overlay_tekst {
+  color: #f0f5f9 !important;
+  font-size: 30px !important;
 }
 
 #footer {
