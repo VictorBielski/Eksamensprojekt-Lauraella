@@ -23,7 +23,7 @@
   <div class="row">
     <div class="col-12 text-center">
         <h3><a href="index.php" class="logo">Laura Ella</a></h3>
-        <p>~ Brugskunst i Dragør ~</p>
+        <p>~ Alt hvad vi har i Laura Ella er unødvendigt, det gør bare livet lidt hyggeligere. ~</p>
     </div>
   </div>
 </div>
@@ -37,7 +37,7 @@
   <div class="container">
     <!--FØRSTE ROW -->
     <div class="row justify-content-center">
-      <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+      <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_1.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -45,7 +45,7 @@
         </div>
     </div>
   </div>
-  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+  <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_9.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -53,7 +53,7 @@
         </div>
     </div>
   </div>
-  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+  <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_3.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -61,7 +61,7 @@
         </div>
     </div>
   </div>
-  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+  <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_2.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -69,9 +69,10 @@
         </div>
     </div>
 </div>
+</div>
 <!--ANDET ROW -->
     <div class="row justify-content-center">
-      <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+      <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_5.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -79,7 +80,7 @@
         </div>
     </div>
   </div>
-  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+  <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_5.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -87,7 +88,7 @@
         </div>
     </div>
   </div>
-  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+  <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_8.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -95,7 +96,7 @@
         </div>
     </div>
   </div>
-  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+  <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_6.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -106,7 +107,7 @@
 </div>
 <!--TREDJE ROW -->
     <div class="row justify-content-center mb-5">
-      <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+      <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_7.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -114,7 +115,7 @@
         </div>
     </div>
   </div>
-      <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+      <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_7.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -122,7 +123,7 @@
         </div>
     </div>
   </div>
-  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+  <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_4.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
@@ -130,7 +131,7 @@
         </div>
     </div>
   </div>
-  <div class="col-lg-3 mt-5 col-md-3 col-sm-6 mini_galleri">
+  <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_2.jpg">
           <div class="mask flex-center rgba-blue-grey-light">
