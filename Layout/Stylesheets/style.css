@@ -1,8 +1,8 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @font-face {
-  font-family: 'SF Fourche';
+  font-family: 'SF Fourche Condensed';
   /*a name to be used later*/
-  src: url(/Layout/fonts/SFFourcheBold.ttf);
+  src: url(/Layout/fonts/sffourchecondensed.ttf);
   /*URL to font*/
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 #header .logo {
-  font-family: 'SF Fourche';
+  font-family: 'SF Fourche Condensed';
   font-size: 45px !important;
   color: #f0f5f9;
   letter-spacing: 15px !important;
