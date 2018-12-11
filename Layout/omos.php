@@ -43,9 +43,9 @@
             <img class="img-fluid" id="om_img" src="images/om_img.png">
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
-            <h1 class="text-center mt-2">Hvad er Lauraella?</h1>
-            <p class="mt-3 text-center">Laura Ella er en spændende brugskunstbutik, som har belligenhed i Dragør. Butikken rummer en masse delikatesser og vine, og du får en oplevelse ud over det sædvanlige. Vi laver flotte værtindegaver, firmagaver, venindegaver, kærlighedsgaver samt forkælelsesgaver - alt efter netop dine behov.</p>
-            <p class="mt-3 text-center">Laura Ella byder også på mange lækre ting til hjemmet. Puder i de skønneste farver, det populøre porcelæn fra "Pip" og meget mere. Til forskønnelse af krop og sjæl forhander vi det evigt populøre "Durance" fra Frankrig, som laver velværeprodukter, lavet på den rene natur.</p>
+            <h1 class="text-center mt-1">Hvad er Lauraella?</h1>
+            <p class="mt-3">Laura Ella er en spændende brugskunstbutik, som har belligenhed i Dragør. Butikken rummer en masse delikatesser og vine, og du får en oplevelse ud over det sædvanlige. Vi laver flotte værtindegaver, firmagaver, venindegaver, kærlighedsgaver samt forkælelsesgaver - alt efter netop dine behov.</p>
+            <p class="mt-3">Laura Ella byder også på mange lækre ting til hjemmet. Puder i de skønneste farver, det populøre porcelæn fra "Pip" og meget mere. Til forskønnelse af krop og sjæl forhander vi det evigt populøre "Durance" fra Frankrig, som laver velværeprodukter, lavet på den rene natur.</p>
         </div>
 
 <!-- Row end -->
@@ -54,13 +54,19 @@
     <div class="row mt-5 justify-content-center" data-aos="zoom-in">
 
         <div class="col-sm-12 col-md-12 col-lg-6 order-lg-1">
-            <img class="img-fluid" id="om_img" src="images/om_img.png">
+            <img class="img-fluid" id="om_img" src="images/LauraEllaPris.jpg">
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-6">
-            <h1 class="text-center mt-2">Brugskunst siden "2010"</h1>
-            <p class="mt-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda corrupti nisi repellat deserunt necessitatibus non totam eaque rem rerum, nihil, velit accusantium delectus hic est voluptas sint in! Necessitatibus, ab. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt ipsum totam deserunt nulla nobis quibusdam, ea vero non et, quis optio, recusandae cumque? Doloribus cum, eius accusamus atque temporibus</p>
-            <p class="mt-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda corrupti nisi repellat deserunt necessitatibus non totam eaque rem rerum, nihil, velit accusantium delectus hic est voluptas sint in! Necessitatibus, ab. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt ipsum totam deserunt nulla nobis quibusdam, ea vero non et, quis optio, recusandae cumque? Doloribus cum, eius accusamus atque temporibus</p>
+            <h1 class="text-center mt-1">Brugskunst siden "1998"</h1>
+            <p class="mt-3">Her hos Laura Ella sørger vi for at sortimentet bliver skiftet hvert halve år i form af nye farver samt produkter.
+            Vi sammensætter vores sortiment helt selv, så det bliver personligt og unikt hvilket gør at det ikke kan købes online.
+            Netop fordi at vi ikke sælger online gør at vi vægter konstant fornyelse til butikken utroligt højt. 
+            Vores kombination af brugskunst, delikatesser og tøj samt måden vi opstiller tingene på er alle med til at give vores kunder den perfekte oplevelse.
+            </p>
+            <h3 class="text-center"><i>"Månedens Amagerbutik Juni 2018"</i></h3>
+            <p>Vi hos Laura Ella er stolte af at annoncere at vi i juni måned, af Amager Bladet og Danske Bank blev kåret som månedens Amagerbutik.</p>
+            
         </div>
 
         <!-- Row end -->
