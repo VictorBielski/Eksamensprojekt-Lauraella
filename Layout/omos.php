@@ -43,7 +43,7 @@
             <img class="img-fluid" id="om_img" src="images/om_img.png">
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
-            <h1 class="text-center mt-1">Hvad er Lauraella?</h1>
+            <h1 class="text-center mt-5">Hvad er Lauraella?</h1>
             <p class="mt-3">Laura Ella er en spændende brugskunstbutik, som har belligenhed i Dragør. Butikken rummer en masse delikatesser og vine, og du får en oplevelse ud over det sædvanlige. Vi laver flotte værtindegaver, firmagaver, venindegaver, kærlighedsgaver samt forkælelsesgaver - alt efter netop dine behov.</p>
             <p class="mt-3">Laura Ella byder også på mange lækre ting til hjemmet. Puder i de skønneste farver, det populøre porcelæn fra "Pip" og meget mere. Til forskønnelse af krop og sjæl forhander vi det evigt populøre "Durance" fra Frankrig, som laver velværeprodukter, lavet på den rene natur.</p>
         </div>
@@ -58,7 +58,7 @@
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-6">
-            <h1 class="text-center mt-1">Brugskunst siden "1998"</h1>
+            <h1 class="text-center mt-2">Brugskunst siden "1998"</h1>
             <p class="mt-3">Her hos Laura Ella sørger vi for at sortimentet bliver skiftet hvert halve år i form af nye farver samt produkter.
             Vi sammensætter vores sortiment helt selv, så det bliver personligt og unikt hvilket gør at det ikke kan købes online.
             Netop fordi at vi ikke sælger online gør at vi vægter konstant fornyelse til butikken utroligt højt. 
