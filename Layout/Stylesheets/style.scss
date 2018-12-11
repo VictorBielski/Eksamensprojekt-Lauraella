@@ -5,8 +5,8 @@ $textcolor: #f0f5f9;
 $navcolor: rgba(0, 0, 0, 0.534);
 
 @font-face {
-    font-family: 'SF Fourche'; /*a name to be used later*/
-    src: url(/Layout/fonts/SFFourcheBold.ttf); /*URL to font*/
+    font-family: 'SF Fourche Condensed'; /*a name to be used later*/
+    src: url(/Layout/fonts/sffourchecondensed.ttf); /*URL to font*/
 }
 
 body {
@@ -24,7 +24,7 @@ body {
     height: 120px !important;
 
 .logo {
-    font-family: 'SF Fourche';
+    font-family: 'SF Fourche Condensed';
     font-size: 45px !important;
     color: $textcolor;
     letter-spacing: 15px !important;
