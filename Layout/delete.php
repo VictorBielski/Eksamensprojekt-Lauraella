@@ -9,7 +9,7 @@ $userid = $_SESSION['users_id'];
 	
 	require_once('dbcon.php');
 	
-   $sql = 'DELETE FROM gallery WHERE idGallery=?';
+   $sql = 'DELETE FROM galleri WHERE idGallery=?';
    $stmt = mysqli_stmt_init($link);
    		if (!mysqli_stmt_prepare($stmt, $sql)) {
     		echo "SQL statement failed!";

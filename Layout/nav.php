@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -49,6 +53,14 @@
         <li class="nav-item">
       <a class="nav-link" href="kontakt.php">Kontakt</a>
     </li>
+
+    <?php
+    if (isset($_SESSION['users_id'])) {
+    echo '<li class="nav-item">
+            <a class="nav-link" href="logout.php">log ud</a>
+          </li>';
+    }
+    ?>
   </ul>
 </div>
 </nav>

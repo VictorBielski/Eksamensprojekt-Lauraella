@@ -30,7 +30,7 @@
 
 <div class="row text-center">
     <div class="col-12">
-    <h1>Image Gallery</h1>
+    <h1>SORTEMENT</h1>
     </div>
 </div>
 
@@ -39,7 +39,7 @@
 <?php
 include_once "dbcon.php";
 
-$sql = "SELECT * FROM gallery ORDER BY orderGallery DESC";
+$sql = "SELECT * FROM galleri WHERE images_id=2 ORDER BY orderGallery DESC";
 $stmt = mysqli_stmt_init($link);
 if (!mysqli_stmt_prepare($stmt, $sql)) {
     echo "SQL statement failed!";
@@ -80,39 +80,51 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
 <!-- Container end -->
 </div>
 
-<?php
-if (isset($_SESSION['users_id'])) {
-    echo '<div class="container">
+<div class="container w-75">
 
-    <div class="row myRow justify-content-center">
-    
-        <div class="col-4 mt-5">
-        <form action="upload.php" method="POST" enctype="multipart/form-data">
-        <div class="form-group">
-        <label for="exampleInputEmail1">Fil navn</label>
-        <input class="form-control" type="text" name="filename" placeholder="Fil navn...">
-        </div>
-    
-        <div class="form-group">
-        <label for="exampleInputEmail1">Titel</label>
-        <input class="form-control" type="text" name="filetitle" placeholder="Billede titel...">
-        </div>
-    
-        <div class="form-group">
-        <label for="exampleInputEmail1">Pris</label>
-        <input class="form-control" type="text" name="filedesc" placeholder="Pris...">
-        </div>
-    
-        <div class="form-group">
-        <input class="form-control-file" type="file" name="file">
-        </div>
-    
-        <div class="form-group">
-        <button class="btn" type="submit" name="submit">UPLOAD</button>
-        </div>
-        </form>
-    
+<div class="row text-center">
+    <div class="col-12">
+    <h1>FORSIDE</h1>
+    </div>
+</div>
+
+<div class="row text-center justify-content-center">
+
+<?php
+include_once "dbcon.php";
+
+$sql = "SELECT * FROM galleri WHERE images_id=1 ORDER BY orderGallery DESC";
+$stmt = mysqli_stmt_init($link);
+if (!mysqli_stmt_prepare($stmt, $sql)) {
+    echo "SQL statement failed!";
+} else {
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
+
+    while ($row = mysqli_fetch_assoc($result)) {
+        if (isset($_SESSION['users_id'])) {
+            echo '
+
+            <div class="col-sm-8 col-md-8 col-lg-4">
+            <img class="img-fluid" src="uploads/'.$row["imgFullNameGallery"].'" alt="placeholder image">
+            <h3>'.$row["titleGallery"].'</h3>
+            <p>'.$row["descGallery"].'</p>
+
+            <form action="delete.php" method="post">	
+            <input type="hidden" name="idg" value="'.$row["idGallery"].'">
+            <input class="img" type="image" src="images/trash.png" alt="Delete">
+            </form>
+            </div> ';
+
+        } else {
+        echo ' 
+        <div class="col-sm-8 col-md-8 col-lg-4">
+            <img class="img-fluid" src="uploads/'.$row["imgFullNameGallery"].'" alt="placeholder image">
+            <h3>'.$row["titleGallery"].'</h3>
+            <p>'.$row["descGallery"].'</p> 
         </div>';
+        }
+    }
 }
 ?>
 
@@ -123,12 +135,6 @@ if (isset($_SESSION['users_id'])) {
 </div>
 
 </section>
-<?php
-if (isset($_SESSION['users_id'])) {
-    echo '<a href="logout.php">klik for at logge ud!</a>';
-}
-
-?>
 
 
 <?php 

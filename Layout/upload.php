@@ -10,6 +10,7 @@ if (isset($_POST['submit'])) {
     }
     $imageTitle = $_POST['filetitle'];
     $imageDesc = $_POST['filedesc'];
+    $imagesid = $_POST['imagesid'];
 
     $file = $_FILES['file'];
 
@@ -39,7 +40,7 @@ if (isset($_POST['submit'])) {
                     header("Location: produkter.php?upload=empty");
                     exit();
                 } else {
-                    $sql = "SELECT * FROM gallery;";
+                    $sql = "SELECT * FROM galleri;";
                     $stmt = mysqli_stmt_init($link);
                     if (!mysqli_stmt_prepare($stmt, $sql)) {
                         echo "SQL statement failed!";
@@ -50,11 +51,11 @@ if (isset($_POST['submit'])) {
                         $setImageOrder = $rowCount + 1;
 
                         // Inserting data from the image into the database
-                        $sql = "INSERT INTO gallery (titleGallery, descGallery, imgFullNameGallery, orderGallery) VALUES (?, ?, ?, ?);";
+                        $sql = "INSERT INTO galleri (titleGallery, descGallery, imgFullNameGallery, orderGallery, images_id) VALUES (?, ?, ?, ?, ?);";
                         if (!mysqli_stmt_prepare($stmt, $sql)) {
                             echo "SQL statement failed!";
                         } else {
-                            mysqli_stmt_bind_param($stmt, "ssss", $imageTitle, $imageDesc, $imageFullName, $setImageOrder);
+                            mysqli_stmt_bind_param($stmt, "ssssi", $imageTitle, $imageDesc, $imageFullName, $setImageOrder, $imagesid);
                             mysqli_stmt_execute($stmt);
 
                             // Uploading image to server
