@@ -31,7 +31,7 @@
       <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_1.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
+          <div class="mask flex-center rgba-blue-grey-strong">
           <p class="overlay_tekst">Julegodter</p>
         </div>
     </div>
@@ -39,7 +39,7 @@
   <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_9.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
+          <div class="mask flex-center rgba-blue-grey-strong">
           <p class="overlay_tekst">Gavepose</p>
         </div>
     </div>
@@ -47,16 +47,16 @@
   <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_3.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
+          <div class="mask flex-center rgba-blue-grey-strong">
           <p class="overlay_tekst">"Lyden af Jul"</p>
         </div>
     </div>
   </div>
   <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
-          <img class="img-fluid" src="images/galleri_img/galleri_img_2.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
-          <p class="overlay_tekst">Juleøl</p>
+          <img class="img-fluid" src="images/galleri_img/galleri_img_12.jpg">
+          <div class="mask flex-center rgba-blue-grey-strong">
+          <p class="overlay_tekst">"Julehygge"</p>
         </div>
     </div>
 </div>
@@ -66,23 +66,23 @@
       <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_5.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
+          <div class="mask flex-center rgba-blue-grey-strong">
           <p class="overlay_tekst">Juletræslys</p>
         </div>
     </div>
   </div>
   <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
-          <img class="img-fluid" src="images/galleri_img/galleri_img_5.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
-          <p class="overlay_tekst">Juletræslys</p>
+          <img class="img-fluid" src="images/galleri_img/galleri_img_11.jpg">
+          <div class="mask flex-center rgba-blue-grey-strong">
+          <p class="overlay_tekst">Udendørs Lys</p>
         </div>
     </div>
   </div>
   <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_8.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
+          <div class="mask flex-center rgba-blue-grey-strong">
           <p class="overlay_tekst">Juletræspynt</p>
         </div>
     </div>
@@ -90,7 +90,7 @@
   <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_6.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
+          <div class="mask flex-center rgba-blue-grey-strong">
           <p class="overlay_tekst">Juledekorationer</p>
         </div>
     </div>
@@ -101,23 +101,23 @@
       <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_7.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
+          <div class="mask flex-center rgba-blue-grey-strong">
           <p class="overlay_tekst">Lys til hjemmet</p>
         </div>
     </div>
   </div>
       <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
-          <img class="img-fluid" src="images/galleri_img/galleri_img_7.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
-          <p class="overlay_tekst">Lys til hjemmet</p>
+          <img class="img-fluid" src="images/galleri_img/galleri_img_10.jpg">
+          <div class="mask flex-center rgba-blue-grey-strong">
+          <p class="overlay_tekst">Kaffe</p>
         </div>
     </div>
   </div>
   <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_4.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
+          <div class="mask flex-center rgba-blue-grey-strong">
           <p class="overlay_tekst">Vin & Champagne</p>
         </div>
     </div>
@@ -125,7 +125,7 @@
   <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
         <div class="view overlay">
           <img class="img-fluid" src="images/galleri_img/galleri_img_2.jpg">
-          <div class="mask flex-center rgba-blue-grey-light">
+          <div class="mask flex-center rgba-blue-grey-strong">
           <p class="overlay_tekst">Juleøl</p>
         </div>
     </div>
@@ -152,6 +152,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="/Eksamensprojekt-Lauraella/Layout/scripts/rellax.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/js/mdb.min.js"></script>
     <script src="scripts/script.js" type="text/javascript"></script>

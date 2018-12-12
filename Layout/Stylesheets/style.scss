@@ -146,7 +146,8 @@ nav {
     background-repeat: no-repeat !important;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll !important;
+    z-index: -10 !important;
 
     .mask {
         
@@ -162,7 +163,7 @@ nav {
 
 
 #footer {
-    background-color: $galleri_hover !important;
+    background-color: $navcolor !important;
     color: $ikoner_footer_tekst !important;
     height: 100% !important;
 

@@ -40,24 +40,13 @@
   </div>
   <div class="col-lg-4 col-md-4 col-sm-12 text-center mt-3">
     <ul>
-    <div class="row justify-content-center text-center">
-      <div class="col-2">
-      <i class="fas fa-phone fa-3x mt-2"></i>
-    </div>
-        <div class="col-2">
-        <i class="fas fa-envelope fa-3x mt-2"></i>
-    </div>
-</div>
-      <div class="row justify-content-center">
-        <div class="col-2">
-      <i class="fab fa-facebook fa-3x mt-2"></i>
-        </div>
-
-        <div class="col-2">
-      <i class="fab fa-instagram fa-3x mt-2"></i>
-        </div>
-</div>
+    <h5 class="mt-2">Kontakt</h5>
+    <li class="mt-2"><a href="#">Lauraella@mail.com</a></li>
+      <li class="mt-2"><a href="#">32 53 00 18</a></li>
+      <i class="fab fa-facebook fa-2x mt-1 mt-2"></i>
+      <i class="fab fa-instagram fa-2x mt-1 ml-2"></i>
     </ul>
+  </div>
   </div>
 
   </div>

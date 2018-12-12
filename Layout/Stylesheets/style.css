@@ -123,7 +123,8 @@ nav .animated-icon1.open span:nth-child(3) {
   background-repeat: no-repeat !important;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll !important;
+  z-index: -10 !important;
 }
 
 #mini_gallery .mask .overlay_tekst {
@@ -132,7 +133,7 @@ nav .animated-icon1.open span:nth-child(3) {
 }
 
 #footer {
-  background-color: #52616a !important;
+  background-color: rgba(0, 0, 0, 0.534) !important;
   color: #c9d6de !important;
   height: 100% !important;
 }
