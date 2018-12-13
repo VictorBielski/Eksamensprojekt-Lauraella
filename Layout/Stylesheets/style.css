@@ -14,6 +14,17 @@ body {
   color: #f0f5f9;
 }
 
+#socials #facebook, #socials #instagram {
+  list-style: none !important;
+  color: #f0f5f9 !important;
+}
+
+#socials #facebook:hover, #socials #instagram:hover {
+  color: #52616a !important;
+  -webkit-transition: ease-in 0.1s !important;
+  transition: ease-in 0.1s !important;
+}
+
 #header {
   font-family: 'Slabo 27px', serif;
   letter-spacing: 1px;
@@ -25,21 +36,6 @@ body {
   font-size: 45px !important;
   color: #f0f5f9;
   letter-spacing: 5px !important;
-}
-
-#header #facebook, #header #instagram {
-  list-style: none !important;
-  color: #f0f5f9 !important;
-}
-
-#header #facebook:hover, #header #instagram:hover {
-  color: #52616a !important;
-  -webkit-transition: ease-in 0.1s !important;
-  transition: ease-in 0.1s !important;
-}
-
-#header .logo:hover {
-  color: #52616a !important;
 }
 
 #header p {
@@ -232,14 +228,6 @@ nav .animated-icon1.open span:nth-child(3) {
   width: 100% !important;
 }
 
-#kontakt hr {
-  border: none;
-  border-left: 1px solid #73848c;
-  height: 100%;
-  width: 1px;
-  margin-top: 0 !important;
-}
-
 #kontakt #kontaktform {
   color: #f0f5f9 !important;
 }
@@ -247,7 +235,6 @@ nav .animated-icon1.open span:nth-child(3) {
 #kontakt #kontaktform .form-control {
   border-radius: 0 !important;
   resize: none;
-  outline: none !important;
   border: 0 !important;
   background-color: transparent;
   border-bottom: 0.5px solid #f0f5f9 !important;
@@ -273,6 +260,13 @@ nav .animated-icon1.open span:nth-child(3) {
   color: #f0f5f9 !important;
 }
 
+#kontakt #kontaktform input:focus {
+  outline: none !important;
+  -webkit-appearance: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 #kontakt #kontaktform textarea {
   color: #f0f5f9 !important;
 }
@@ -291,6 +285,13 @@ nav .animated-icon1.open span:nth-child(3) {
 
 #kontakt #kontaktform textarea::placeholder {
   color: #f0f5f9 !important;
+}
+
+#kontakt #kontaktform textarea:focus {
+  outline: none !important;
+  -webkit-appearance: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 #kontakt #kontaktform .btn {

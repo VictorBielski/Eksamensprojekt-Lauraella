@@ -67,6 +67,7 @@
         </div>
       </div>
     </div>
+ </div>
 </section>
 
 
@@ -114,9 +115,6 @@
 </a>
         </div>
     </div>
-</div>
-</div>
-</div>
 </div>
 </section>
 

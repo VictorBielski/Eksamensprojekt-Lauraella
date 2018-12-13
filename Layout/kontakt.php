@@ -8,10 +8,12 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <!-- Material Design Bootstrap -->
         <link href="/Eksamensprojekt-Lauraella/Layout/Stylesheets/mdb/mdb.min.css" rel="stylesheet">
+        <!--Font awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-        <link rel="stylesheet" href="Stylesheets/style.css"  type="text/css">
+        <link rel="stylesheet" href="stylesheets/style.css"  type="text/css">
     <title>Lauraella</title>
   </head>
   <body>
@@ -25,13 +27,13 @@
 <section id="kontakt">
     <div class="container-fluid"> 
         <div class="row justify-content-center">
-            <div class="col-5 mt-5 mb-5 p-0">
+            <div class="col-lg-5 col-md-12 sm-12 mt-5 mb-5">
                 <div id="map"></div>
             </div>
             <div class="col-1">
-                <hr>
+                
             </div>      
-            <div class="col-5 mt-5 mb-5">
+            <div class="col-lg-5 col-md-12 sm-12 mt-5">
             <h1 class="text-center">Mangler du hjælp?</h1>
             <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aspernatur reprehenderit, eveniet sint ex accusantium, alias minima distinctio dicta inventore.</p>
             <form action="contact.php" method="POST" id="kontaktform">

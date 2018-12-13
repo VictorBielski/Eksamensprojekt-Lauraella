@@ -18,6 +18,20 @@ body {
 
 }
 
+#socials {
+
+    #facebook, #instagram {
+        list-style: none !important;
+        color: $textcolor !important;
+    }
+    
+    #facebook:hover, #instagram:hover {
+        color: $galleri_hover !important;
+        transition: ease-in 0.1s !important;
+    }
+    
+}
+
 #header {
     font-family: 'Slabo 27px', serif;
     letter-spacing: 1px;
@@ -30,19 +44,7 @@ body {
     letter-spacing: 5px !important;
 }
 
-#facebook, #instagram {
-    list-style: none !important;
-    color: $textcolor !important;
-}
 
-#facebook:hover, #instagram:hover {
-    color: $galleri_hover !important;
-    transition: ease-in 0.1s !important;
-}
-
-.logo:hover {
-    color: $galleri_hover !important;
-}
 p {
     color: $textcolor !important;
 }
@@ -263,13 +265,6 @@ nav {
         width: 100% !important;
     }
 
-    hr {
-        border: none;
-        border-left: 1px solid hsla(200, 10%, 50%,100);
-        height: 100%;
-        width: 1px;  
-        margin-top: 0 !important;  
-    }
 
     #kontaktform {
         color: $textcolor !important;
@@ -277,7 +272,6 @@ nav {
         .form-control {
             border-radius: 0 !important;
             resize: none;
-            outline: none !important;
             border: 0 !important;
             background-color: transparent;
             border-bottom: .5px solid $textcolor !important;
@@ -290,11 +284,23 @@ nav {
         input::placeholder {
             color: $textcolor !important;
         }
+
+        input:focus {
+            outline: none !important;
+            -webkit-appearance: none !important;
+            box-shadow: none !important;
+        }
         textarea {
             color: $textcolor !important;
         }
         textarea::placeholder {
             color: $textcolor !important;
+        }
+
+        textarea:focus {
+            outline: none !important;
+            -webkit-appearance: none !important;
+            box-shadow: none !important;
         }
 
         .btn {

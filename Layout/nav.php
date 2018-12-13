@@ -15,24 +15,28 @@
   <body>
 
 <!--Logo-->
-<div class="container-fluid m-0" id="header">
+<div class="container-fluid" id="socials">
   <div class="row">
-    <div class="col-3">
+    <div class="col-12 text-right">
+      <ul>
+        <a href="https://www.facebook.com/lauraelladragoer/"><i class="fab fa-facebook fa-2x mt-4 mr-1" id="facebook"></i></a>
+        <a href="https://www.instagram.com/lauraelladragoer/?hl=da"><i class="fab fa-instagram fa-2x mt-4" id="instagram"></i></a>
+      </ul>
+    </div>
+  </div>
 </div>
-    <div class="col-6 text-center mt-5">
+
+<div class="container-fluid" id="header">
+  <div class="row">
+    <div class="col-12 text-center">
         <h3><a href="index.php" class="logo">LAURA ELLA</a></h3>
         <p>~ Alt hvad vi har i Laura Ella er unødvendigt, det gør bare livet lidt hyggeligere. ~</p>
     </div>
-    <div class="col-3 text-right">
-    <ul>
-      <a href="https://www.facebook.com/lauraelladragoer/"><i class="fab fa-facebook fa-2x mt-4 mr-1" id="facebook"></i></a>
-      <a href="https://www.instagram.com/lauraelladragoer/?hl=da"><i class="fab fa-instagram fa-2x mt-4 mr-3" id="instagram"></i></a>
-    </ul>
 </div>
   </div>
-</div>
+
   
-<nav class="navbar navbar-expand-sm mt-5">
+<nav class="navbar navbar-expand-sm mt-3">
 <!-- Collapse button -->
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
   aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
