@@ -117,20 +117,20 @@ nav .animated-icon1.open span:nth-child(3) {
 }
 
 #landing {
-  max-height: 300px !important;
+  max-height: 500px !important;
 }
 
 #landing #img_carousel {
-  max-height: 300px !important;
+  max-height: 500px !important;
 }
 
 #landing .carousel-item {
-  max-height: 300px !important;
+  max-height: 500px !important;
   width: 100% !important;
 }
 
 #landing .carousel-indicators {
-  max-height: 300px !important;
+  max-height: 500px !important;
 }
 
 #mini_gallery {

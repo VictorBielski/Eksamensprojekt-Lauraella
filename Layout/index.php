@@ -41,7 +41,7 @@
           <div class="carousel-inner" role="listbox">
             <!--First slide-->
             <div class="carousel-item active">
-              <img class="d-block w-100" src="images/slider_1.jpg" alt="First slide">
+              <img class="d-block w-100" src="images/slider.png" alt="First slide">
             </div>
             <!--/First slide-->
             <!--Second slide-->
