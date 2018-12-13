@@ -24,7 +24,7 @@ body {
   font-family: 'SF Fourche Condensed';
   font-size: 45px !important;
   color: #f0f5f9;
-  letter-spacing: 15px !important;
+  letter-spacing: 5px !important;
 }
 
 #header .logo:hover {
@@ -50,6 +50,10 @@ nav .nav-item a {
   font-size: 18px;
   font-family: 'Slabo 27px', serif;
   letter-spacing: 2px !important;
+}
+
+nav .nav-item a:hover {
+  background-color: transparent !important;
 }
 
 nav .dropdown {
@@ -116,14 +120,29 @@ nav .animated-icon1.open span:nth-child(3) {
   transform: rotate(-135deg);
 }
 
+#landing {
+  max-height: 300px !important;
+}
+
+#landing #img_carousel {
+  max-height: 300px !important;
+}
+
+#landing .carousel-item {
+  max-height: 300px !important;
+}
+
+#landing .carousel-indicators {
+  max-height: 300px !important;
+}
+
 #mini_gallery {
   background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png);
   height: 100% !important;
   width: 100% !important;
-  background-repeat: no-repeat !important;
+  background-repeat: repeat !important;
   background-size: cover;
   background-position: center;
-  background-attachment: scroll !important;
   z-index: -10 !important;
 }
 
