@@ -8,3 +8,5 @@ $(document).ready(function () {
     $(this).toggleClass('open');
     });
     });
+
+    $(".view .mask").removeClass("waves-effect waves-light");

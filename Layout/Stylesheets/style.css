@@ -27,6 +27,17 @@ body {
   letter-spacing: 5px !important;
 }
 
+#header #facebook, #header #instagram {
+  list-style: none !important;
+  color: #f0f5f9 !important;
+}
+
+#header #facebook:hover, #header #instagram:hover {
+  color: #52616a !important;
+  -webkit-transition: ease-in 0.1s !important;
+  transition: ease-in 0.1s !important;
+}
+
 #header .logo:hover {
   color: #52616a !important;
 }
@@ -53,7 +64,7 @@ nav .nav-item a {
 }
 
 nav .nav-item a:hover {
-  background-color: transparent !important;
+  color: #52616a !important;
 }
 
 nav .dropdown {
@@ -151,6 +162,14 @@ nav .animated-icon1.open span:nth-child(3) {
   font-size: 30px !important;
 }
 
+#mini_gallery .link {
+  cursor: pointer !important;
+}
+
+#mini_gallery .link .nyeVarer p {
+  font-size: 30px !important;
+}
+
 #footer {
   background-color: rgba(0, 0, 0, 0.534) !important;
   color: #c9d6de !important;
@@ -176,6 +195,16 @@ nav .animated-icon1.open span:nth-child(3) {
   width: 30px !important;
   height: 100% !important;
   margin: 1%;
+}
+
+#footer .phone {
+  font-size: 15px !important;
+  margin-bottom: 10px !important;
+  font-family: 'Noto Serif SC', serif;
+}
+
+#footer .col-2 li {
+  list-style: none !important;
 }
 
 #sortiment {

@@ -30,6 +30,16 @@ body {
     letter-spacing: 5px !important;
 }
 
+#facebook, #instagram {
+    list-style: none !important;
+    color: $textcolor !important;
+}
+
+#facebook:hover, #instagram:hover {
+    color: $galleri_hover !important;
+    transition: ease-in 0.1s !important;
+}
+
 .logo:hover {
     color: $galleri_hover !important;
 }
@@ -56,7 +66,7 @@ nav {
     }
 
     .nav-item a:hover {
-        background-color: transparent !important;
+        color: $galleri_hover !important;
     }
 
     .dropdown {
@@ -172,11 +182,19 @@ nav {
             font-size: 30px !important;
         }
     }
+
+   .link {
+        cursor: pointer !important;
+        
+
+    .nyeVarer p {
+        font-size: 30px !important;
+
+
 }
+    }
 
-
-
-
+}
 
 #footer {
     background-color: $navcolor !important;
@@ -200,6 +218,16 @@ nav {
         width: 30px !important;
         height: 100% !important;
         margin: 1%;
+    }
+
+    .phone {
+        font-size: 15px !important;
+        margin-bottom: 10px !important;
+        font-family: 'Noto Serif SC', serif;
+    }
+
+    .col-2 li {
+        list-style: none !important;
     }
 
 
