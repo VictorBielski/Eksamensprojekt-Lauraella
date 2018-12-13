@@ -1,8 +1,6 @@
 <?php
 	session_start();
-?>
-
-<!doctype html>
+?><!doctype html>
 <html lang="en">
   <head>
         <!-- Required meta tags -->
@@ -30,31 +28,34 @@
     <div class="row myRow justify-content-center">
     
         <div class="col-4 mt-5">
-        <form action="upload.php" method="POST" enctype="multipart/form-data">
-        <div class="form-group">
-        <label for="exampleInputEmail1">Fil navn</label>
-        <input class="form-control" type="text" name="filename" placeholder="Fil navn...">
-        </div>
-    
-        <div class="form-group">
-        <label for="exampleInputEmail1">Titel</label>
-        <input class="form-control" type="text" name="filetitle" placeholder="Billede titel...">
-        </div>
-    
-        <div class="form-group">
-        <label for="exampleInputEmail1">Pris</label>
-        <input class="form-control" type="text" name="filedesc" placeholder="Pris...">
-        </div>
-    
-        <div class="form-group">
-        <input class="form-control-file" type="file" name="file">
-        </div>
+<?php 
+        if (isset($_SESSION['users_id'])) { // if logged in ?>
 
-        Vælg lokation til billede:
-	    <select name="imagesid" required>
+        <form action="upload.php" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Fil navn</label>
+                <input class="form-control" type="text" name="filename" placeholder="Fil navn...">
+            </div>
+    
+            <div class="form-group">
+                <label for="exampleInputEmail1">Titel</label>
+                <input class="form-control" type="text" name="filetitle" placeholder="Billede titel...">
+            </div>
+    
+            <div class="form-group">
+                <label for="exampleInputEmail1">Pris</label>
+                <input class="form-control" type="text" name="filedesc" placeholder="Pris...">
+            </div>
+    
+            <div class="form-group">
+                <input class="form-control-file" type="file" name="file">
+            </div>
+
+            Vælg lokation til billede:
+	            <select name="pagesid" required>
         <?php
                 require_once('dbcon.php');
-                $sql = 'SELECT id, name FROM images';
+                $sql = 'SELECT id, name FROM pages';
                 $stmt = $link->prepare($sql);
                 $stmt->execute();
                 $stmt->bind_result($imgid, $name);
@@ -65,17 +66,18 @@
         ?>
         </select>
     
-        <div class="form-group">
-        <button class="btn" type="submit" name="submit">UPLOAD</button>
-        </div>
+            <div class="form-group">
+                <button class="btn" type="submit" name="submit">UPLOAD</button>
+            </div>
         </form>
-    
+ <?php } else { // if NOT logged in 
+
+        echo 'Not logged in!!!';
+ }
+ ?>
         </div>
-
-
-<!-- Row end -->
-</div>
-
+    <!-- Row end -->
+    </div>
 <!-- Container end -->
 </div>
 
