@@ -25,12 +25,14 @@
 ?>
 
 <section id="landing">
-
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h3>Her på siden finder du de nyeste varer i vores sortiment!</h3>
+            </div>
+        </div>
+    </div>
 </section>
-
-
-
-
 
 <?php 
     include 'footer.php';
