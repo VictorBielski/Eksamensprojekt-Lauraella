@@ -17,28 +17,40 @@
     <title>Lauraella</title>
 </head>
 <body>
-	<div class="container-fluid" id="intro">
-  		<div class="row-justify-content center">
-    		<div class="col-12">
-      			<h1 class="intro text-center">Lauraella login</h1>
-    		</div>
-  		</div>
-	</div>
 
-	<div class="container-fluid mt-5" id="form">
+<!-- NAVBAR INCLUDE-->
+<?php 
+    include 'nav.php';
+?>
+
+<section id="login">
+
+	<div class="container-fluid" id="form">
   		<div class="row justify-content-center">
-    		<div class="col-lg-4 col-md-8 col-sm-12">
+    		<div class="col-sm-12 col-md-8 col-lg-4 underlay mt-5 mb-5">
 		
 		<!-- Default form login -->
-      		<form action="login.php" method="POST" class="text-center border border-light p-5">
-        		<p class="h4 mb-4">Log ind</p>
-        			<input type="text" id="defaultLoginFormEmail" name="un" class="form-control mb-4" placeholder="Brugernavn">
-        			<input type="password" id="defaultLoginFormPassword" name="pw" class="form-control mb-4" placeholder="Kodeord">
-        			<button class="btn btn-info btn-block my-4" type="submit">Log ind</button>
+      		<form action="login.php" method="POST" class="text-center p-5" id="form">
+				<p class="h4 mb-4">Log ind</p>
+					<div class="form-group">
+						<input type="text" id="defaultLoginFormEmail" name="un" class="form-control mb-4" placeholder="Brugernavn">
+					</div>
+					<div class="form-group">
+						<input type="password" id="defaultLoginFormPassword" name="pw" class="form-control mb-4" placeholder="Kodeord">
+					</div>
+					<div class="form-group">
+						<button class="btn" type="submit">Log ind</button>
+					</div>
       		</form>
     		</div>
   		</div>
 	</div>
+
+</section>
+
+	<?php 
+    include 'footer.php';
+	?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
