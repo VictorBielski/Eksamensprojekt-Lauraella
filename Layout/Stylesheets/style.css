@@ -349,37 +349,33 @@ nav .animated-icon1.open span:nth-child(3) {
   height: 100% !important;
 }
 
-#intro {
-  margin-top: 4% !important;
+#login {
+  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  color: #f0f5f9 !important;
 }
 
-#intro h1 {
-  font-family: 'Slabo 27px' !important;
-  letter-spacing: 5px !important;
-  font-size: 50px !important;
+#login .underlay {
+  background-color: rgba(0, 0, 0, 0.534) !important;
 }
 
-#form {
-  margin-top: 4% !important;
-}
-
-#form form {
-  background-color: #52616a !important;
-  -webkit-box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.75);
+#login #form form {
   border: 0 !important;
   border-radius: 0 !important;
 }
 
-#form input {
+#login #form input {
   border-radius: 0 !important;
   border: 0 !important;
   height: 55px;
 }
 
-#form button {
-  background-color: #f0f5f9 !important;
-  font-size: 20px;
+#login #form .btn {
+  border-radius: 0 !important;
+  background-color: #52616a !important;
+  color: #f0f5f9 !important;
+  width: 50% !important;
 }
 
 #upload {
