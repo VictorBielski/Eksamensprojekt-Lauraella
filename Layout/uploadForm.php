@@ -25,27 +25,25 @@
     include 'nav.php';
 ?>
 
+<section id="upload">
 <div class="container">
 
     <div class="row myRow justify-content-center">
     
-        <div class="col-4 mt-5">
+        <div class="col-sm-10 col-md-8 col-lg-6 mt-5 mb-5 p-5 omtekst ">
 <?php 
         if (isset($_SESSION['users_id'])) { // if logged in ?>
 
-        <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <form action="upload.php" method="POST" enctype="multipart/form-data" id="kontaktform">
             <div class="form-group">
-                <label for="exampleInputEmail1">Fil navn</label>
                 <input class="form-control" type="text" name="filename" placeholder="Fil navn...">
             </div>
     
             <div class="form-group">
-                <label for="exampleInputEmail1">Titel</label>
                 <input class="form-control" type="text" name="filetitle" placeholder="Billede titel...">
             </div>
     
             <div class="form-group">
-                <label for="exampleInputEmail1">Pris</label>
                 <input class="form-control" type="text" name="filedesc" placeholder="Pris...">
             </div>
     
@@ -54,7 +52,7 @@
             </div>
 
             Vælg lokation til billede:
-	            <select name="pagesid" required>
+	            <select name="pagesid" class="mb-3" required>
         <?php
                 require_once('dbcon.php');
                 $sql = 'SELECT id, name FROM pages';
@@ -68,7 +66,7 @@
         ?>
         </select>
     
-            <div class="form-group">
+            <div class="form-group text-center">
                 <button class="btn" type="submit" name="submit">UPLOAD</button>
             </div>
         </form>
@@ -82,7 +80,7 @@
     </div>
 <!-- Container end -->
 </div>
-
+</section>
 
 <?php 
     include 'footer.php';

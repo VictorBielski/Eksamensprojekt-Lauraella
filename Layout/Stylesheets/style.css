@@ -372,6 +372,59 @@ nav .animated-icon1.open span:nth-child(3) {
   font-size: 20px;
 }
 
+#upload {
+  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  color: #f0f5f9 !important;
+}
+
+#upload .omtekst {
+  background-color: rgba(0, 0, 0, 0.534) !important;
+}
+
+#upload #kontaktform .form-control {
+  border-radius: 0 !important;
+  resize: none;
+  border: 0 !important;
+  background-color: transparent;
+  border-bottom: 0.5px solid #f0f5f9 !important;
+}
+
+#upload #kontaktform input {
+  color: #f0f5f9 !important;
+}
+
+#upload #kontaktform input::-webkit-input-placeholder {
+  color: #f0f5f9 !important;
+}
+
+#upload #kontaktform input:-ms-input-placeholder {
+  color: #f0f5f9 !important;
+}
+
+#upload #kontaktform input::-ms-input-placeholder {
+  color: #f0f5f9 !important;
+}
+
+#upload #kontaktform input::placeholder {
+  color: #f0f5f9 !important;
+}
+
+#upload #kontaktform input:focus {
+  outline: none !important;
+  -webkit-appearance: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#upload #kontaktform .btn {
+  border-radius: 0 !important;
+  background-color: #52616a !important;
+  color: #f0f5f9 !important;
+  width: 50% !important;
+}
+
 @media (min-width: 1200px) {
   .h2-responsive {
     font-size: 100px !important;
