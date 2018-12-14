@@ -204,33 +204,15 @@ nav .animated-icon1.open span:nth-child(3) {
 
 #footer ul {
   list-style: none !important;
-  color: #c9d6de !important;
 }
 
-#footer li a {
-  color: white !important;
+#footer .footer_link {
   color: #c9d6de !important;
 }
 
 #footer .åbningstider_ikon {
   width: 50px !important;
   height: 50px !important;
-}
-
-#footer .kontakt_ikon {
-  width: 30px !important;
-  height: 100% !important;
-  margin: 1%;
-}
-
-#footer .phone {
-  font-size: 15px !important;
-  margin-bottom: 10px !important;
-  font-family: 'Noto Serif SC', serif;
-}
-
-#footer .col-2 li {
-  list-style: none !important;
 }
 
 #sortiment {

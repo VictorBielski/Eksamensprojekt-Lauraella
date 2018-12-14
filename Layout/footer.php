@@ -10,33 +10,31 @@
 
   <body>
 <footer class="card-footer" id="footer">
-<div class="container-fluid">
-  <div class="row justify-content-center text-center">
-    <div class="col-sm-12 col-md-4 col-lg-4 mt-4 ">
+<div class="container-fluid m-0">
+  <div class="row text-center mt-4 mr-4">
+    <div class="col-sm-12 col-md-4 col-lg-4">
         <ul class="">
         <img class="åbningstider_ikon" src="/Eksamensprojekt-Lauraella/Layout/images/ikoner/opening-hours-new.png">
-        <p class="mt-3">Mandag - Fredag..... 10.00-18.00</p>
-        <p class="mt-1">Lørdag....................... 10.00-14.00</p>
-        <p class="mt-1">Søndag.......................10.00-16.00</p>
+        <p class="mt-3">Mandag - Fredag.....10.00-18.00</p>
+        <p class="">Lørdag.......................s10.00-14.00</p>
+        <p class="">Søndag.......................10.00-16.00</p>
         </ul>
     </div>
-  <div class="col-sm-12 col-md-4 col-lg-4 mt-4 ">
-    <ul>
-    <i class="fas fa-map-marker-alt  fa-3x"></i>
-      <li class="mt-3"><a href="#">Kongevejen 13</a></li>
-      <li class="mt-1"><a href="#">2791 Dragør</a></li>
-      <li class="mt-1"><a href="#">Danmark</a></li>
+  <div class="col-sm-12 col-md-4 col-lg-4">
+    <ul class="footer_ul">
+    <i class="fas fa-map-marker-alt fa-3x"></i>
+      <li class="mt-3"><a class="footer_link" href="#">Kongevejen 13</a></li>
+      <li class="mt-2"><a class="footer_link" href="#">2791 Dragør</a></li>
+      <li class="mt-2"><a class="footer_link" href="#">Danmark</a></li>
     </ul>
   </div>
-  <div class="col-sm-12 col-md-4 col-lg-4 mt-4">
-    <h4 class="ml-5 mt-2">Kontakt</h4>
-    <p class="phone mt-4 ml-4">
-    <i class="fas fa-phone-square fa-2x mr-4"></i>+45 32 53 00 18</p>
-    </p>
-    <p class="phone mt-3 text-cente ml-4">
-    <i class="fas fa-envelope-square fa-2x mr-1"></i>helle@gmail.com</p>
-    </p>
-  </div>
+  <div class="col-sm-12 col-md-4 col-lg-4">
+    <i class="fas fa-phone-square fa-3x ml-4"></i>
+    <ul class="footer_ul">
+      <li class="mt-3 mr-2"><a class="footer_link" href="#">Helle@gmail.com</a></li>
+      <li class="mt-2 mr-2"><a class="footer_link" href="#">+45 45 54 33 22</a></li>
+  </ul>
+</div>
   </div>
 
   </div>

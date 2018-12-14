@@ -232,32 +232,20 @@ nav {
 
     ul {
         list-style: none !important;
+    }
+
+    .footer_link {
         color: $ikoner_footer_tekst !important;
     }
-    li a {
-        color: white !important;
-        color: $ikoner_footer_tekst !important;
-    }
+
+
+
     .åbningstider_ikon {
         width: 50px !important;
         height: 50px !important;
     }
 
-    .kontakt_ikon {
-        width: 30px !important;
-        height: 100% !important;
-        margin: 1%;
-    }
 
-    .phone {
-        font-size: 15px !important;
-        margin-bottom: 10px !important;
-        font-family: 'Noto Serif SC', serif;
-    }
-
-    .col-2 li {
-        list-style: none !important;
-    }
 
 
 }
