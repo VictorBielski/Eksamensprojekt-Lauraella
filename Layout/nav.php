@@ -67,20 +67,6 @@
         <li class="nav-item">
       <a class="nav-link" href="kontakt.php">Kontakt</a>
     </li>
-    <?php
-    if (isset($_SESSION['users_id'])) { ?>
-      <li class="nav-item">
-          <a class="nav-link" href="uploadForm.php">Upload</a>
-      </li>
-    <?php 
-    } ?>
-    <?php
-    if (isset($_SESSION['users_id'])) { ?>
-      <li class="nav-item">
-          <a class="nav-link" href="logout.php">log ud</a>
-      </li>
-    <?php 
-    } ?>
   </ul>
 </div>
 </nav>
