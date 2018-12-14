@@ -11,7 +11,7 @@
   <body>
 <footer class="card-footer" id="footer">
 <div class="container-fluid">
-  <div class="row">
+  <div class="row justify-content-center">
     <div class="col-lg-4 col-md-4 col-sm-12 mt-4 text-center">
         <ul class="text-center">
         <img class="åbningstider_ikon" src="/Eksamensprojekt-Lauraella/Layout/images/ikoner/opening-hours.png">
