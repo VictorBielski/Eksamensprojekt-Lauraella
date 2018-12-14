@@ -27,15 +27,12 @@
 <section id="kontakt">
     <div class="container-fluid"> 
         <div class="row justify-content-center">
-            <div class="col-lg-5 col-md-12 sm-12 mt-5 mb-5">
+            <div class="col-lg-6 col-md-12 sm-12 mt-5 mb-5">
                 <div id="map"></div>
-            </div>
-            <div class="col-1">
-                
-            </div>      
-            <div class="col-lg-5 col-md-12 sm-12 mt-5">
+            </div>     
+            <div class="col-lg-6 col-md-12 sm-12 mt-5">
             <h1 class="text-center">Mangler du hjælp?</h1>
-            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aspernatur reprehenderit, eveniet sint ex accusantium, alias minima distinctio dicta inventore.</p>
+            <p class="mt-3 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aspernatur reprehenderit, eveniet sint ex accusantium, alias minima distinctio dicta inventore.</p>
             <form action="contact.php" method="POST" id="kontaktform">
                 <div class="row mt-3">
                     <div class="col-lg-6">

@@ -67,8 +67,19 @@ nav .nav-item a:hover {
   color: #52616a !important;
 }
 
-nav .dropdown {
+nav .dropdown-menu {
   color: #f0f5f9 !important;
+  border-radius: 0 !important;
+  background-color: rgba(0, 0, 0, 0.534) !important;
+}
+
+nav .dropdown-menu .dropdown-item {
+  color: #f0f5f9 !important;
+}
+
+nav .dropdown-menu .dropdown-item:hover {
+  color: #52616a !important;
+  background-color: transparent !important;
 }
 
 nav .animated-icon1 {
@@ -141,6 +152,14 @@ nav .animated-icon1.open span:nth-child(3) {
 
 #landing .carousel-item {
   max-height: 300px !important;
+}
+
+#landing .h2-responsive {
+  color: #c9d6de56;
+  letter-spacing: 5px !important;
+  font-weight: bold !important;
+  font-size: 40px !important;
+  margin-bottom: 8% !important;
 }
 
 #landing .carousel-indicators {
@@ -312,6 +331,14 @@ nav .animated-icon1.open span:nth-child(3) {
   color: #f0f5f9 !important;
 }
 
+#omos .omtekst {
+  background-color: rgba(0, 0, 0, 0.534) !important;
+}
+
+#omos .omtekst_2 {
+  background-color: rgba(0, 0, 0, 0.534) !important;
+}
+
 #intro {
   margin-top: 4% !important;
 }
@@ -343,5 +370,11 @@ nav .animated-icon1.open span:nth-child(3) {
 #form button {
   background-color: #f0f5f9 !important;
   font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+  .h2-responsive {
+    font-size: 100px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

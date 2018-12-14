@@ -75,9 +75,18 @@ nav {
         color: $galleri_hover !important;
     }
 
-    .dropdown {
+    .dropdown-menu {
         color: $textcolor !important;
+        border-radius: 0 !important;
+        background-color: $navcolor !important;
 
+        .dropdown-item {
+            color: $textcolor !important;
+        }
+        .dropdown-item:hover {
+            color: $galleri_hover !important;
+            background-color: transparent !important;
+        }
     }
 
 
@@ -163,7 +172,14 @@ nav {
 
     .carousel-item {
        max-height: 300px !important;
-        
+    }
+
+    .h2-responsive {
+        color: #c9d6de56;
+        letter-spacing: 5px !important;
+        font-weight: bold !important;
+        font-size: 40px !important;
+        margin-bottom: 8% !important;
     }
 
     .carousel-indicators {
@@ -322,7 +338,12 @@ nav {
     background-position: center !important;
     color: $textcolor !important;
 
-
+    .omtekst {
+        background-color: $navcolor !important;
+    }
+    .omtekst_2 {
+        background-color: $navcolor !important;
+    }
 
 }
 
@@ -379,6 +400,8 @@ nav {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-
+    .h2-responsive {
+        font-size: 100px !important;
+    }
 
  }

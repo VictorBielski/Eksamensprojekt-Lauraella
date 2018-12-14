@@ -53,8 +53,13 @@
     <li class="nav-item active">
       <a class="nav-link" href="index.php">Forside<span class="sr-only">(current)</span></a>
     </li>
-    <li class="nav-item">
-          <a class="nav-link" href="produkter.php">Vores sortiment</a>
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vores sortiment</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="nyeVarer.php">Nye varer</a>
+          <a class="dropdown-item" href="tilbudsVarer.php">Tilbudsvarer</a>
+        </div>
       </li>
     <li class="nav-item">
       <a class="nav-link" href="omos.php">Om os</a>

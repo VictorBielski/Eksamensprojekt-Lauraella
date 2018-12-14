@@ -40,20 +40,37 @@
 
           <!--Slides-->
           <div class="carousel-inner" role="listbox">
-            <!--First slide-->
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="images/slider1.png" alt="First slide">
-            </div>
-            <!--/First slide-->
-            <!--Second slide-->
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/slider2.jpg" alt="Second slide">
-            </div>
-            <!--/Second slide-->
-            <!--Third slide-->
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/slider3.jpg" alt="Third slide">
-            </div>
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="images/slider3.jpg" alt="First slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>
+      <div class="carousel-caption">
+        <h2 class="h2-responsive mb-4">Prisbelønnet brugskunst i Dragør</h2>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="images/slider1.png" alt="Second slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>
+      <div class="carousel-caption">
+        <h2 class="h2-responsive mb-4">Julen har indtaget Laura Ella</h2>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="images/slider2.jpg" alt="Third slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>
+      <div class="carousel-caption">
+        <h2 class="h2-responsive mb-4">Lækre delikatesser og Vine</h2>
+      </div>
+    </div>
+  </div>
+  <!--/.Slides-->
             <!--/Third slide-->
           <a class="carousel-control-prev" href="#img_carousel" role="button" data-slide="prev">
           <i class="fas fa-angle-left fa-3x"></i>
