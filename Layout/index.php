@@ -1,4 +1,6 @@
-<!doctype html>
+<?php
+	session_start();
+?><!doctype html>
 <html lang="en">
   <head>
         <!-- Required meta tags -->
@@ -96,42 +98,68 @@
         <h1 class="mt-4 text-center">Vores nye varer</h1>
       </div>
     </div>
-    <!--FØRSTE ROW -->
+
+
+
     <div class="row justify-content-center">
-      <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
-        <div class="view overlay">
-          <img class="img-fluid" src="images/galleri_img/galleri_img_1.jpg">
-          <div class="mask flex-center rgba-blue-grey-strong">
-          <p class="overlay_tekst">Julegodter</p>
-        </div>
-    </div>
-  </div>
-  <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
-        <div class="view overlay">
-          <img class="img-fluid" src="images/galleri_img/galleri_img_9.jpg">
-          <div class="mask flex-center rgba-blue-grey-strong">
-          <p class="overlay_tekst">Gavepose</p>
-        </div>
-    </div>
-  </div>
-  <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
-        <div class="view overlay">
-          <img class="img-fluid" src="images/galleri_img/galleri_img_3.jpg">
-          <div class="mask flex-center rgba-blue-grey-strong">
-          <p class="overlay_tekst">"Lyden af Jul"</p>
-        </div>
-    </div>
-  </div>
+    <?php
+include_once "dbcon.php";
+$sql = "SELECT idGallery, titleGallery, descGallery, imgFullNameGallery FROM galleri WHERE pages_id=1 ORDER BY orderGallery DESC LIMIT 3";
+
+$stmt = $link->prepare($sql);
+$stmt->bind_result($id, $title, $desc, $fullName);
+$stmt->execute();
+    while ($stmt->fetch()) {
+        if (isset($_SESSION['users_id'])) { ?>
+
+            <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
+
+                <div class="view overlay">
+                    <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
+                    <div class="mask flex-center rgba-blue-grey-strong">
+                        <h3><?=$title?></h3>
+                        <p><?=$desc?></p>
+                    </div>
+                </div>
+
+                <form action="delete.php" method="post">	
+                    <input type="hidden" name="idg" value="<?=$id?>">
+                    <input class="img" type="image" src="images/trash.png" alt="Delete">
+                </form>
+            <!-- Col end -->
+            </div>
+
+          
+<?php   } else { // if not logged in ?>
+            <div class="col-sm-8 col-md-8 col-lg-4">
+                <div class="view overlay">
+                    <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
+                    <div class="mask flex-center rgba-blue-grey-strong">
+                        <h3><?=$title?></h3>
+                        <p><?=$desc?></p>
+                    </div>
+                </div>
+            <!-- Col end -->
+            </div>
+ <?php 
+            }
+    }
+?>
+
+<!-- Static image -->
 <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mb-5 mini_galleri_nye">
-<a href="produkter.php"><div class="view link">
-    <img src="images/galleri_img/galleri_img_12.jpg" class="img-fluid" alt="">
-    <div class="mask flex-center">
-        <p class="overlay_tekst">Se alle nye varer</p>
-    </div>
+    <a href="produkter.php"><div class="view link">
+      <img src="images/galleri_img/galleri_img_12.jpg" class="img-fluid" alt="">
+        <div class="mask flex-center">
+          <p class="overlay_tekst">Se alle nye varer</p>
+         </div>
+    </a>
 </div>
-</a>
-        </div>
+    
+
+    <!-- Row end -->
     </div>
+<!-- Container end -->
 </div>
 </section>
 

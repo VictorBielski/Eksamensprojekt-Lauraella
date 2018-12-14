@@ -29,7 +29,7 @@ $pw = filter_input(INPUT_POST, 'pw') or die ('Missing or illegal pw parameter');
 	while ($stmt->fetch()) {}
 	
 	if(password_verify($pw, $pwhash)){
-		header("Location: produkter.php");
+		header("Location: uploadForm.php");
 			
 			$_SESSION['users_id'] = $id;
 			$_SESSION['uname'] = $un;

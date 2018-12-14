@@ -1,8 +1,6 @@
 <?php
 	session_start();
-?>
-
-<!doctype html>
+?><!doctype html>
 <html lang="en">
   <head>
         <!-- Required meta tags -->
@@ -50,10 +48,14 @@ $stmt->execute();
         if (isset($_SESSION['users_id'])) { ?>
 
             <div class="col-sm-8 col-md-8 col-lg-4">
-                <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
-                <h3><?=$title?></h3>
-                <p><?=$desc?></p>
 
+                <div class="view overlay">
+                    <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
+                    <div class="mask flex-center rgba-blue-grey-strong">
+                        <h3><?=$title?></h3>
+                        <p><?=$desc?></p>
+                    </div>
+                </div>
                 <form action="delete.php" method="post">	
                     <input type="hidden" name="idg" value="<?=$id?>">
                     <input class="img" type="image" src="images/trash.png" alt="Delete">
@@ -63,9 +65,13 @@ $stmt->execute();
 
 <?php   } else { ?>
             <div class="col-sm-8 col-md-8 col-lg-4">
-                <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
-                <h3><?=$title?></h3>
-                <p><?=$desc?></p>
+                <div class="view overlay">
+                    <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
+                    <div class="mask flex-center rgba-blue-grey-strong">
+                        <h3><?=$title?></h3>
+                        <p><?=$desc?></p>
+                    </div>
+                </div>
             </div>
  <?php 
             }
