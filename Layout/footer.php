@@ -10,15 +10,9 @@
 
   <body>
 <footer class="card-footer" id="footer">
-<<<<<<< HEAD
 <div class="container-fluid m-0">
   <div class="row text-center mt-4 mr-4">
     <div class="col-sm-12 col-md-4 col-lg-4">
-=======
-<div class="container-fluid">
-  <div class="row text-center">
-    <div class="col-sm-12 col-md-4 col-lg-4 mt-4 ">
->>>>>>> 19498f6bdf0d5846656184d5b38c486b671bd83c
         <ul class="">
         <img class="åbningstider_ikon" src="/Eksamensprojekt-Lauraella/Layout/images/ikoner/opening-hours-new.png">
         <p class="mt-3">Mandag - Fredag.....10.00-18.00</p>
