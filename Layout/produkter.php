@@ -48,7 +48,7 @@ $stmt->execute();
     while ($stmt->fetch()) {
         if (isset($_SESSION['users_id'])) { ?>
 
-            <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
+            <div class="col-lg-3 mt-4 col-md-3 col-sm-6">
 
                 <div class="view overlay">
                     <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">

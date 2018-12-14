@@ -98,56 +98,14 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-12">
-        <h1 class="mt-4 text-center">Vores nye varer</h1>
-      </div>
+        <div class="col-12">
+            <h1 class="mt-4 text-center">Vores nye varer</h1>
+        </div>
     </div>
 
 
 
     <div class="row justify-content-center">
-    <?php
-include_once "dbcon.php";
-$sql = "SELECT idGallery, titleGallery, descGallery, imgFullNameGallery FROM galleri WHERE pages_id=1 ORDER BY orderGallery DESC LIMIT 3";
-$stmt = $link->prepare($sql);
-$stmt->bind_result($id, $title, $desc, $fullName);
-$stmt->execute();
-    while ($stmt->fetch()) {
-        if (isset($_SESSION['users_id'])) { ?>
-
-            <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
-
-                <div class="view overlay">
-                    <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
-                    <div class="mask flex-center rgba-blue-grey-strong">
-                        <h3><?=$title?></h3>
-                        <p><?=$desc?></p>
-                    </div>
-                </div>
-
-                <form action="delete.php" method="post">	
-                    <input type="hidden" name="idg" value="<?=$id?>">
-                    <input class="img" type="image" src="images/trash.png" alt="Delete">
-                </form>
-            <!-- Col end -->
-            </div>
-
-          
-<?php   } else { // if not logged in ?>
-            <div class="col-sm-8 col-md-8 col-lg-4">
-                <div class="view overlay">
-                    <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
-                    <div class="mask flex-center rgba-blue-grey-strong">
-                        <h3><?=$title?></h3>
-                        <p><?=$desc?></p>
-                    </div>
-                </div>
-            <!-- Col end -->
-            </div>
- <?php 
-            }
-    }
-?>
 
 <!-- Static image -->
 <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mb-5 mini_galleri_nye">
