@@ -14,7 +14,7 @@
   <div class="row justify-content-center text-center">
     <div class="col-sm-12 col-md-4 col-lg-4 mt-4 ">
         <ul class="">
-        <img class="åbningstider_ikon" src="/Eksamensprojekt-Lauraella/Layout/images/ikoner/opening-hours.png">
+        <img class="åbningstider_ikon" src="/Eksamensprojekt-Lauraella/Layout/images/ikoner/opening-hours-new.png">
         <p class="mt-3">Mandag - Fredag..... 10.00-18.00</p>
         <p class="mt-1">Lørdag....................... 10.00-14.00</p>
         <p class="mt-1">Søndag.......................10.00-16.00</p>
