@@ -431,6 +431,34 @@ nav .animated-icon1.open span:nth-child(3) {
   width: 50% !important;
 }
 
+@media (min-width: 768px) {
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 60px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 95px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+}
+
 @media (min-width: 1200px) {
   .h2-responsive {
     font-size: 100px !important;

@@ -25,7 +25,7 @@
 
 
 <section id="kontakt">
-    <div class="container-fluid"> 
+    <div class="container"> 
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-12 sm-12 mt-5 mb-5">
                 <div id="map"></div>

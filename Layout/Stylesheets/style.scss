@@ -448,12 +448,32 @@ nav {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 60px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
     
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
-
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 95px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
