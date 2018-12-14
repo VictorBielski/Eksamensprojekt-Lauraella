@@ -36,7 +36,7 @@
   </div>
 
   
-<nav class="navbar navbar-expand-sm mt-3">
+<nav class="navbar navbar-expand-md mt-3">
 <!-- Collapse button -->
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
   aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,12 +68,19 @@
       <a class="nav-link" href="kontakt.php">Kontakt</a>
     </li>
     <?php
-    if (isset($_SESSION['users_id'])) {
-    echo '<li class="nav-item">
-            <a class="nav-link" href="logout.php">log ud</a>
-          </li>';
-    }
-    ?>
+    if (isset($_SESSION['users_id'])) { ?>
+      <li class="nav-item">
+          <a class="nav-link" href="uploadForm.php">Upload</a>
+      </li>
+    <?php 
+    } ?>
+    <?php
+    if (isset($_SESSION['users_id'])) { ?>
+      <li class="nav-item">
+          <a class="nav-link" href="logout.php">log ud</a>
+      </li>
+    <?php 
+    } ?>
   </ul>
 </div>
 </nav>

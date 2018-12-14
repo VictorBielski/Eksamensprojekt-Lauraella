@@ -18,6 +18,6 @@ $userid = $_SESSION['users_id'];
 			mysqli_stmt_execute($stmt);
 		}
 
-		
-	header("Location: produkter.php?delete=success");
+		header("Location: index.php?delete=success");
+	
 	

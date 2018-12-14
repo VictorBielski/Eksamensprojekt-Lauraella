@@ -26,63 +26,6 @@
 ?>
 
 <section id="sortiment">
-<div class="container w-75">
-
-<div class="row text-center">
-    <div class="col-12">
-    <h1>FORSIDE</h1>
-    </div>
-</div>
-
-<div class="row text-center justify-content-center">
-
-<?php
-include_once "dbcon.php";
-
-$sql = "SELECT idGallery, titleGallery, descGallery, imgFullNameGallery FROM galleri WHERE pages_id=1 ORDER BY orderGallery DESC";
-
-$stmt = $link->prepare($sql);
-$stmt->bind_result($id, $title, $desc, $fullName);
-$stmt->execute();
-    while ($stmt->fetch()) {
-        if (isset($_SESSION['users_id'])) { ?>
-
-            <div class="col-sm-8 col-md-8 col-lg-4">
-
-                <div class="view overlay">
-                    <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
-                    <div class="mask flex-center rgba-blue-grey-strong">
-                        <h3><?=$title?></h3>
-                        <p><?=$desc?></p>
-                    </div>
-                </div>
-                <form action="delete.php" method="post">	
-                    <input type="hidden" name="idg" value="<?=$id?>">
-                    <input class="img" type="image" src="images/trash.png" alt="Delete">
-                </form>
-            </div>
-
-
-<?php   } else { ?>
-            <div class="col-sm-8 col-md-8 col-lg-4">
-                <div class="view overlay">
-                    <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
-                    <div class="mask flex-center rgba-blue-grey-strong">
-                        <h3><?=$title?></h3>
-                        <p><?=$desc?></p>
-                    </div>
-                </div>
-            </div>
- <?php 
-            }
-    }
-?>
-
-<!-- Row end -->
-</div>
-<!-- Container end -->
-</div>
-
 
 <div class="container w-75">
 
@@ -97,8 +40,7 @@ $stmt->execute();
 
 <?php
 include_once "dbcon.php";
-
-$sql = "SELECT idGallery, titleGallery, descGallery, imgFullNameGallery FROM galleri WHERE pages_id=2 ORDER BY orderGallery DESC";
+$sql = "SELECT idGallery, titleGallery, descGallery, imgFullNameGallery FROM galleri WHERE pages_id=2 ORDER BY orderGallery DESC LIMIT 3";
 
 $stmt = $link->prepare($sql);
 $stmt->bind_result($id, $title, $desc, $fullName);
@@ -106,23 +48,34 @@ $stmt->execute();
     while ($stmt->fetch()) {
         if (isset($_SESSION['users_id'])) { ?>
 
-            <div class="col-sm-8 col-md-8 col-lg-4">
-                <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
-                <h3><?=$title?></h3>
-                <p><?=$desc?></p>
+            <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mini_galleri">
+
+                <div class="view overlay">
+                    <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
+                    <div class="mask flex-center rgba-blue-grey-strong">
+                        <h3><?=$title?></h3>
+                        <p><?=$desc?></p>
+                    </div>
+                </div>
 
                 <form action="delete.php" method="post">	
                     <input type="hidden" name="idg" value="<?=$id?>">
                     <input class="img" type="image" src="images/trash.png" alt="Delete">
                 </form>
+            <!-- Col end -->
             </div>
 
-
-<?php   } else { ?>
+          
+<?php   } else { // if not logged in ?>
             <div class="col-sm-8 col-md-8 col-lg-4">
-                <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
-                <h3><?=$title?></h3>
-                <p><?=$desc?></p>
+                <div class="view overlay">
+                    <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
+                    <div class="mask flex-center rgba-blue-grey-strong">
+                        <h3><?=$title?></h3>
+                        <p><?=$desc?></p>
+                    </div>
+                </div>
+            <!-- Col end -->
             </div>
  <?php 
             }
