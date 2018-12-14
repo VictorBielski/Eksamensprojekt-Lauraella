@@ -105,7 +105,6 @@
     <?php
 include_once "dbcon.php";
 $sql = "SELECT idGallery, titleGallery, descGallery, imgFullNameGallery FROM galleri WHERE pages_id=1 ORDER BY orderGallery DESC LIMIT 3";
-
 $stmt = $link->prepare($sql);
 $stmt->bind_result($id, $title, $desc, $fullName);
 $stmt->execute();
