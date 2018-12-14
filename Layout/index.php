@@ -1,6 +1,7 @@
 <?php
 	session_start();
-?><!doctype html>
+?>
+<!doctype html>
 <html lang="en">
   <head>
         <!-- Required meta tags -->
@@ -17,7 +18,7 @@
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
         <link rel="stylesheet" href="stylesheets/style.css"  type="text/css">
     <title>Laura Ella</title>
-    </head>
+  </head>
 
 <body>
 
@@ -31,6 +32,7 @@
 <section id="landing">
   <div class="container-fluid mt-2">
     <div class="row">
+
       <div class="col-12 p-0">
         <!-- IMAGE SLIDER START -->
         <div id="img_carousel" class="carousel slide carousel-fade" data-ride="carousel">
