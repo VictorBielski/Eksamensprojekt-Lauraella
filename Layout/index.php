@@ -49,17 +49,17 @@
     <div class="carousel-item active">
       <div class="view">
         <img class="d-block w-100" src="images/slider3.jpg" alt="First slide">
-        <div class="mask rgba-black-strong"></div>
+        <div class="mask rgba-black-light"></div>
       </div>
       <div class="carousel-caption">
-        <h2 class="h2-responsive mb-4">Prisbelønnet brugskunst i Dragør</h2>
+        <h2 class="h2-responsive">Prisbelønnet brugskunst i Dragør</h2>
       </div>
     </div>
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
         <img class="d-block w-100" src="images/slider1.png" alt="Second slide">
-        <div class="mask rgba-black-strong"></div>
+        <div class="mask rgba-black-light"></div>
       </div>
       <div class="carousel-caption">
         <h2 class="h2-responsive mb-4">Julen har indtaget Laura Ella</h2>
@@ -69,7 +69,7 @@
       <!--Mask color-->
       <div class="view">
         <img class="d-block w-100" src="images/slider2.jpg" alt="Third slide">
-        <div class="mask rgba-black-strong"></div>
+        <div class="mask rgba-black-light"></div>
       </div>
       <div class="carousel-caption">
         <h2 class="h2-responsive mb-4">Lækre delikatesser og Vine</h2>

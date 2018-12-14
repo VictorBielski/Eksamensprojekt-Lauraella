@@ -70,7 +70,11 @@ nav .nav-item a:hover {
 nav .dropdown-menu {
   color: #f0f5f9 !important;
   border-radius: 0 !important;
-  background-color: rgba(0, 0, 0, 0.534) !important;
+  background-color: #0E0F10 !important;
+  text-align: center !important;
+  position: static !important;
+  float: none !important;
+  margin-left: 25% !important;
 }
 
 nav .dropdown-menu .dropdown-item {
@@ -144,6 +148,7 @@ nav .animated-icon1.open span:nth-child(3) {
 
 #landing {
   max-height: 300px !important;
+  font-family: 'Slabo 27px', serif !important;
 }
 
 #landing #img_carousel {
@@ -155,11 +160,11 @@ nav .animated-icon1.open span:nth-child(3) {
 }
 
 #landing .h2-responsive {
-  color: #c9d6de56;
+  color: #f0f5f9 !important;
   letter-spacing: 5px !important;
-  font-weight: bold !important;
   font-size: 40px !important;
-  margin-bottom: 8% !important;
+  margin-bottom: 2% !important;
+  font-weight: bold !important;
 }
 
 #landing .carousel-indicators {
@@ -174,6 +179,7 @@ nav .animated-icon1.open span:nth-child(3) {
   background-size: cover;
   background-position: center;
   z-index: -10 !important;
+  font-family: 'Slabo 27px', serif !important;
 }
 
 #mini_gallery .mask .overlay_tekst {
@@ -193,6 +199,7 @@ nav .animated-icon1.open span:nth-child(3) {
   background-color: rgba(0, 0, 0, 0.534) !important;
   color: #c9d6de !important;
   height: 100% !important;
+  font-family: 'Slabo 27px', serif !important;
 }
 
 #footer ul {
@@ -244,6 +251,7 @@ nav .animated-icon1.open span:nth-child(3) {
   background-size: cover !important;
   background-position: center !important;
   color: #f0f5f9 !important;
+  font-family: 'Slabo 27px', serif !important;
 }
 
 #kontakt #map {
@@ -333,10 +341,12 @@ nav .animated-icon1.open span:nth-child(3) {
 
 #omos .omtekst {
   background-color: rgba(0, 0, 0, 0.534) !important;
+  font-family: 'Slabo 27px', serif !important;
 }
 
-#omos .omtekst_2 {
-  background-color: rgba(0, 0, 0, 0.534) !important;
+#omos #om_img2 {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 #intro {

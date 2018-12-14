@@ -40,11 +40,11 @@
 
 <section id="omos">
 <div class="container">
-    <div class="row justify-content-center" data-aos="zoom-in">
-        <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
-            <img class="img-fluid" id="om_img" src="images/om_img.png">
+    <div class="row" data-aos="zoom-in">
+        <div class="col-sm-12 col-md-12 col-lg-6 p-0 mt-5">
+            <img class="img-fluid" id="om_img" src="images/om_img.jpg">
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 mt-5 text-center omtekst">
+        <div class="col-sm-12 col-md-12 col-lg-6 mt-5 w-100 text-center omtekst">
             <h2 class="text-center mt-5">Hvad er Lauraella?</h2>
             <p class="mt-2">Laura Ella er en spændende brugskunstbutik, som har belligenhed i Dragør. Butikken rummer en masse delikatesser og vine, og du får en oplevelse ud over det sædvanlige. Vi laver flotte værtindegaver, firmagaver, venindegaver, kærlighedsgaver samt forkælelsesgaver - alt efter netop dine behov.</p>
             <p class="mt-2">Laura Ella byder også på mange lækre ting til hjemmet. Puder i de skønneste farver, det populøre porcelæn fra "Pip" og meget mere. Til forskønnelse af krop og sjæl forhander vi det evigt populøre "Durance" fra Frankrig, som laver velværeprodukter, lavet på den rene natur.</p>
@@ -52,9 +52,9 @@
 <!-- Row end -->
 </div>
 
-<div class="row justify-content-center" data-aos="zoom-in">
-        <div class="col-sm-12 col-md-12 col-lg-6 mt-5 omtekst">
-        <h2 class="text-center mt-4">Brugskunst siden "1998"</h2>
+<div class="row" data-aos="zoom-in">
+        <div class="col-sm-12 col-md-12 col-lg-6 mt-3 mb-5 text-center omtekst">
+        <h2 class="text-center mt-3">Brugskunst siden "1998"</h2>
             <p>Her hos Laura Ella sørger vi for at sortimentet bliver skiftet hvert halve år i form af nye farver samt produkter.
             Vi sammensætter vores sortiment helt selv, så det bliver personligt og unikt hvilket gør at det ikke kan købes online.
             Netop fordi at vi ikke sælger online gør at vi vægter konstant fornyelse til butikken utroligt højt. 
@@ -63,9 +63,8 @@
             <h3><i>"Månedens Amagerbutik Juni 2018"</i></h3>
             <p>Vi hos Laura Ella er stolte af at annoncere at vi i juni måned, af Amager Bladet og Danske Bank blev kåret som månedens Amagerbutik.</p>
         </div>
-            <div class="col-sm-12 col-md-12 col-lg-6 mt-5 text-center">
-            <img class="img-fluid" id="om_img" src="images/LauraEllaPris.jpg">
-       
+            <div class="col-sm-12 col-md-12 col-lg-6 mt-3 p-0 mb-5">
+            <img class="img-fluid" id="om_img2" src="images/LauraEllaPris.jpg">
         </div>
 <!-- Row end -->
 </div>

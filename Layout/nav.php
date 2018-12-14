@@ -7,10 +7,8 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="/Eksamensprojekt-Lauraella/Layout/Stylesheets/mdb/mdb.min.css" rel="stylesheet">
     <title>Lauraella</title>
-    <script>
-        $(".view .mask").removeClass("waves-effect waves-light");
-    </script>
   </head>
   <body>
 
@@ -35,7 +33,7 @@
 </div>
   </div>
 
-  
+<div class="container-fluid p-0"> 
 <nav class="navbar navbar-expand-md mt-3">
 <!-- Collapse button -->
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
@@ -55,10 +53,11 @@
     </li>
     <!-- Dropdown -->
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vores sortiment</a>
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Vores sortiment</a>
         <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="nyeVarer.php">Nye varer</a>
-          <a class="dropdown-item" href="tilbudsVarer.php">Tilbudsvarer</a>
+          <a class="dropdown-item" href="#">Nye varer</a>
+          <a class="dropdown-item" href="#">Tilbudsvarer</a>
         </div>
       </li>
     <li class="nav-item">
@@ -84,6 +83,6 @@
   </ul>
 </div>
 </nav>
-
+</div>
   </body>
 </html>

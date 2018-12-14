@@ -10,7 +10,7 @@
 
   <body>
 <footer class="card-footer" id="footer">
-<div class="container-fluid justify-content-center">
+<div class="container-fluid">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12 mt-4 text-center">
         <ul class="text-center">
@@ -29,11 +29,11 @@
     </ul>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-12 text-center mt-4">
-    <h4>Kontakt</h4>
-    <p class="phone mt-3 text-center">
+    <h4 class="ml-5 mt-2">Kontakt</h4>
+    <p class="phone mt-4 text-center ml-4">
     <i class="fas fa-phone-square fa-2x mr-4"></i>+45 32 53 00 18</p>
     </p>
-    <p class="phone mt-3 text-center">
+    <p class="phone mt-3 text-cente ml-4">
     <i class="fas fa-envelope-square fa-2x mr-2"></i>helle@gmail.com</p>
     </p>
   </div>
