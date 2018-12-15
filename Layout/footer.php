@@ -31,7 +31,7 @@
   <div class="col-sm-12 col-md-4 col-lg-4">
     <i class="fas fa-phone-square fa-3x ml-4"></i>
     <ul class="footer_ul">
-      <li class="mt-3 mr-2"><a class="footer_link" href="#">Helle@gmail.com</a></li>
+      <li class="mt-3 mr-2"><a class="footer_link" href="#" target="_blank">Helle@gmail.com</a></li>
       <li class="mt-2 mr-2"><a class="footer_link" href="#">+45 45 54 33 22</a></li>
   </ul>
 </div>
