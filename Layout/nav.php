@@ -30,8 +30,8 @@
         <h3><a href="index.php" class="logo">LAURA ELLA</a></h3>
         <p>~ Alt hvad vi har i Laura Ella er unødvendigt, det gør bare livet lidt hyggeligere. ~</p>
     </div>
-</div>
   </div>
+</div>
 
 <div class="container-fluid p-0"> 
 <nav class="navbar navbar-expand-md mt-3">
