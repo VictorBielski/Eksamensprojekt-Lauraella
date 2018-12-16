@@ -87,23 +87,22 @@
 <script src="scripts/script.js" type="text/javascript"></script>
 
 
-        <script>
-// Initialize and add the map
+<script>
+// Initialiser og tilføjer mappet
 function initMap() {
-  // The location of Uluru
+
+  // Koordinator til Laura Ella butikken
   var uluru = {lat: 55.594010, lng: 12.672576};
-  // The map, centered at Uluru
+
+  // Mappet centreret omkring Laura Ella butikkens location
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 15, center: uluru});
-  // The marker, positioned at Uluru
+
+  // Markering på lokationen
   var marker = new google.maps.Marker({position: uluru, map: map});
 }
-    </script>
-    <!--Load the API from the specified URL
-    * The async attribute allows the browser to render the page while the API loads
-    * The key parameter will contain your own API key (which is not needed for this tutorial)
-    * The callback parameter executes the initMap() function
-    -->
+</script>
+
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfHp9xUg-GsJK9y1_3i9lxZtDkRd_ve50&callback=initMap">
     </script>
