@@ -40,10 +40,10 @@
 
 <?php
 include_once "dbcon.php";
-$sql = "SELECT idGallery, titleGallery, descGallery, imgFullNameGallery FROM galleri WHERE pages_id=2 ORDER BY orderGallery DESC LIMIT 3";
+$sql = "SELECT idGallery, titleGallery, descGallery, imgFullNameGallery, pages_id FROM galleri WHERE pages_id=2 ORDER BY orderGallery DESC LIMIT 18";
 
 $stmt = $link->prepare($sql);
-$stmt->bind_result($id, $title, $desc, $fullName);
+$stmt->bind_result($id, $title, $desc, $fullName, $pagesid);
 $stmt->execute();
     while ($stmt->fetch()) {
         if (isset($_SESSION['users_id'])) { ?>
@@ -62,6 +62,7 @@ $stmt->execute();
 
                 <form action="delete.php" method="post" class="deleteIcon">	
                     <input type="hidden" name="idg" value="<?=$id?>">
+                    <input type="hidden" name="idp" value="<?=$pagesid?>">
                     <input class="img" type="image" src="images/trashit.png" alt="Delete">
                 </form>
             <!-- Col end -->
