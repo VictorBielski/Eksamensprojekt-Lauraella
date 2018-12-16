@@ -9,7 +9,6 @@ $(document).ready(function () {
     });
     });
 
-    $(".view .mask").removeClass("waves-effect waves-light");
 
     // Variable til bazar dato
 var countDownDate = new Date("Jan 5, 2019 10:00:00").getTime();

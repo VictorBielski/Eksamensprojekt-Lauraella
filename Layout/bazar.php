@@ -41,11 +41,11 @@
 
 </div>
 
-<div class="container mt-3" id="bazar_intro">
+<div class="container-fluid" id="bazar_intro">
     <div class="row justify-content-center">
         <div class="col-8">
-            <h1 class="text-center mt-2">Spar op til 70 % til Laura Ella Bazar</h1>
-                <p class="text-center mt-4">En gang om måneden holder vi Laura Ella Bazar, hvor vi opkøber kellektionsprøver fra vores leverandører, og her kan du gøre en rigtig god handel, idet varerne typisk bliver solgt med 50 til 70 % rabat!</p>
+            <h1 class="text-center mt-3">Spar op til 70 % til Laura Ella Bazar</h1>
+                <p class="text-center mt-3">En gang om måneden holder vi Laura Ella Bazar, hvor vi opkøber kellektionsprøver fra vores leverandører, og her kan du gøre en rigtig god handel, idet varerne typisk bliver solgt med 50 til 70 % rabat!</p>
 
         </div>
     </div>

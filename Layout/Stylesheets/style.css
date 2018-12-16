@@ -149,20 +149,20 @@ nav .animated-icon1.open span:nth-child(3) {
   max-height: 300px !important;
 }
 
+#landing #img_carousel .carousel-indicators {
+  max-height: 300px !important;
+}
+
 #landing .carousel-item {
   max-height: 300px !important;
 }
 
-#landing .h2-responsive {
+#landing .carousel-item .h2-responsive {
   color: #f0f5f9 !important;
   letter-spacing: 5px !important;
   font-size: 40px !important;
   margin-bottom: 2% !important;
   font-weight: bold !important;
-}
-
-#landing .carousel-indicators {
-  max-height: 300px !important;
 }
 
 #mini_gallery {
@@ -179,14 +179,7 @@ nav .animated-icon1.open span:nth-child(3) {
 #mini_gallery .mask .overlay_tekst {
   color: #f0f5f9 !important;
   font-size: 30px !important;
-}
-
-#mini_gallery .link {
   cursor: pointer !important;
-}
-
-#mini_gallery .link .nyeVarer p {
-  font-size: 30px !important;
 }
 
 #footer {
@@ -196,17 +189,17 @@ nav .animated-icon1.open span:nth-child(3) {
   font-family: 'Slabo 27px', serif !important;
 }
 
+#footer .åbningstider_ikon {
+  width: 50px !important;
+  height: 50px !important;
+}
+
 #footer ul {
   list-style: none !important;
 }
 
-#footer .footer_link {
+#footer ul .footer_link {
   color: #c9d6de !important;
-}
-
-#footer .åbningstider_ikon {
-  width: 50px !important;
-  height: 50px !important;
 }
 
 #sortiment {
@@ -260,9 +253,6 @@ nav .animated-icon1.open span:nth-child(3) {
   border: 0 !important;
   background-color: transparent;
   border-bottom: 0.5px solid #f0f5f9 !important;
-}
-
-#kontakt #kontaktform input {
   color: #f0f5f9 !important;
 }
 
@@ -325,6 +315,7 @@ nav .animated-icon1.open span:nth-child(3) {
   padding: 5px !important;
   font-weight: bold !important;
   letter-spacing: 2px !important;
+  margin-bottom: 5% !important;
 }
 
 #omos {
@@ -361,7 +352,7 @@ nav .animated-icon1.open span:nth-child(3) {
   border: 2px solid #52616a !important;
 }
 
-#bazar #demo {
+#bazar #bazar_row #demo {
   -webkit-transition: ease-in 5s !important;
   transition: ease-in 5s !important;
   font-size: 25px !important;
@@ -369,19 +360,28 @@ nav .animated-icon1.open span:nth-child(3) {
   letter-spacing: 5px !important;
 }
 
-#bazar h1 {
+#bazar #bazar_row h1 {
   font-size: 30px !important;
 }
 
 #bazar_intro {
   font-family: 'Slabo 27px', serif !important;
+  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
-#bazar_intro h1 {
+#bazar_intro .col-8 {
+  background-color: rgba(0, 0, 0, 0.534) !important;
+  margin: 2% 2% 2% 2% !important;
+  border: 2px solid #52616a !important;
+}
+
+#bazar_intro .col-8 h1 {
   font-size: 34px !important;
 }
 
-#bazar_intro p {
+#bazar_intro .col-8 p {
   font-size: 18px !important;
 }
 
