@@ -11,29 +11,29 @@ $(document).ready(function () {
 
     $(".view .mask").removeClass("waves-effect waves-light");
 
-    // Set the date we're counting down to
+    // Variable til bazar dato
 var countDownDate = new Date("Jan 5, 2019 10:00:00").getTime();
 
-// Update the count down every 1 second
+// Function til at tælleren skifter hvert sekund
 var x = setInterval(function() {
 
-  // Get todays date and time
+  // Variabler der henter dato og tid
   var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
+  // Variable der udregner distance mellem bazar datoen og den nuværrende tid
   var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
+  // Variabler for der udregner tiden om til dage, timer, minutter og sekunder
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
+  // Displayer scriptet i diven med id "demo"
   document.getElementById("demo").innerHTML = days + "D " + hours + "T "
   + minutes + "M " + seconds + "S ";
 
-  // If the count down is finished, write some text 
+  // Bazaren er åben og teksten skifter
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "KOM TIL BAZAR HOS LAURA ELLA!";
