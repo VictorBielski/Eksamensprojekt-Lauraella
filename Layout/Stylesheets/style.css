@@ -228,6 +228,20 @@ nav .animated-icon1.open span:nth-child(3) {
   width: 50% !important;
 }
 
+#sortiment .deletoos {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+#sortiment .thetext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 #kontakt {
   background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
   background-size: cover !important;

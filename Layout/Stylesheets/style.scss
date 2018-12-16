@@ -264,6 +264,19 @@ nav {
         color: $textcolor !important;
         width: 50% !important;
     }
+
+    .deletoos {
+        position: absolute;
+        top: 0;
+        right: 20px;
+    }
+
+    .thetext {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 // SORTIMENT PAGE SLUT

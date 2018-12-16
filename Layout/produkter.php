@@ -48,7 +48,7 @@ $stmt->execute();
     while ($stmt->fetch()) {
         if (isset($_SESSION['users_id'])) { ?>
 
-            <div class="col-lg-3 mt-4 col-md-3 col-sm-6">
+            <div class="col-sm-8 col-md-8 col-lg-4 mb-5 mt-5">
 
                 <div class="view overlay">
                     <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
@@ -58,7 +58,7 @@ $stmt->execute();
                     </div>
                 </div>
 
-                <form action="delete.php" method="post">	
+                <form action="delete.php" method="post" class="deletoos">	
                     <input type="hidden" name="idg" value="<?=$id?>">
                     <input class="img" type="image" src="images/trash.png" alt="Delete">
                 </form>
@@ -67,12 +67,14 @@ $stmt->execute();
 
           
 <?php   } else { // if not logged in ?>
-            <div class="col-sm-8 col-md-8 col-lg-4">
+            <div class="col-sm-8 col-md-8 col-lg-4 mb-5 mt-5">
                 <div class="view overlay">
                     <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
-                    <div class="mask flex-center rgba-blue-grey-strong">
-                        <h3><?=$title?></h3>
+                    <div class="mask rgba-blue-grey-strong">
+                        <div class="thetext">
+                        <h1><?=$title?></h1>
                         <p><?=$desc?></p>
+                        </div>
                     </div>
                 </div>
             <!-- Col end -->
