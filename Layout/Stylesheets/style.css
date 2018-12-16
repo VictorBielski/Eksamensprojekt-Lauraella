@@ -390,6 +390,7 @@ nav .animated-icon1.open span:nth-child(3) {
   background-size: cover !important;
   background-position: center !important;
   color: #f0f5f9 !important;
+  font-family: 'Slabo 27px', serif !important;
 }
 
 #login .underlay {
@@ -412,6 +413,11 @@ nav .animated-icon1.open span:nth-child(3) {
   background-color: #52616a !important;
   color: #f0f5f9 !important;
   width: 50% !important;
+  font-size: 20px !important;
+  padding: 5px !important;
+  font-weight: bold !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 5% !important;
 }
 
 #upload {
@@ -466,6 +472,11 @@ nav .animated-icon1.open span:nth-child(3) {
   background-color: #52616a !important;
   color: #f0f5f9 !important;
   width: 50% !important;
+  font-size: 20px !important;
+  padding: 5px !important;
+  font-weight: bold !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 5% !important;
 }
 
 @media (min-width: 768px) {

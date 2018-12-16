@@ -412,6 +412,7 @@ nav {
     background-size: cover !important;
     background-position: center !important;
     color: $textcolor !important;
+    font-family: 'Slabo 27px', serif !important;
 
     .underlay {
         background-color: $navcolor !important;
@@ -436,6 +437,11 @@ nav {
             background-color: $galleri_hover!important;
             color: $textcolor !important;
             width: 50% !important;
+            font-size: 20px !important;
+            padding: 5px !important;
+            font-weight: bold !important;
+            letter-spacing: 2px !important;
+            margin-bottom: 5% !important;
         }
     
     }
@@ -482,6 +488,11 @@ nav {
             background-color: $galleri_hover!important;
             color: $textcolor !important;
             width: 50% !important;
+            font-size: 20px !important;
+            padding: 5px !important;
+            font-weight: bold !important;
+            letter-spacing: 2px !important;
+            margin-bottom: 5% !important;
         }
     }
 }

@@ -46,51 +46,51 @@
 
           <!--Slides-->
           <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <div class="view">
-        <img class="d-block w-100" src="images/slider3.jpg" alt="First slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h2 class="h2-responsive">Prisbelønnet brugskunst i Dragør</h2>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="images/slider1.png" alt="Second slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h2 class="h2-responsive mb-4">Julen har indtaget Laura Ella</h2>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="images/slider2.jpg" alt="Third slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h2 class="h2-responsive mb-4">Lækre delikatesser og Vine</h2>
-      </div>
-    </div>
-  </div>
-  <!--/.Slides-->
-            <!--/Third slide-->
+            <div class="carousel-item active">
+              <div class="view">
+                <img class="d-block w-100" src="images/slider3.jpg" alt="First slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h2 class="h2-responsive">Prisbelønnet brugskunst i Dragør</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="images/slider1.png" alt="Second slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h2 class="h2-responsive mb-4">Julen har indtaget Laura Ella</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="images/slider2.jpg" alt="Third slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h2 class="h2-responsive mb-4">Lækre delikatesser og Vine</h2>
+              </div>
+            </div>
+          </div>
+          <!--/.Slides-->
+          <!--/Third slide-->
           <a class="carousel-control-prev" href="#img_carousel" role="button" data-slide="prev">
-          <i class="fas fa-angle-left fa-3x"></i>
+            <i class="fas fa-angle-left fa-3x"></i>
             <span class="sr-only">Previous</span>
           </a>
           <a class="carousel-control-next" href="#img_carousel" role="button" data-slide="next">
-          <i class="fas fa-angle-right fa-3x"></i>
+            <i class="fas fa-angle-right fa-3x"></i>
             <span class="sr-only">Next</span>
           </a>
-          </div>
         </div>
       </div>
     </div>
- </div>
+  </div>
+  </div>
 </section>
 
 
@@ -98,30 +98,31 @@
   <div class="container">
 
     <div class="row">
-        <div class="col-12">
-            <h1 class="mt-4 text-center">Vores nye varer</h1>
-        </div>
+      <div class="col-12">
+        <h1 class="mt-4 text-center">Vores nye varer</h1>
+      </div>
     </div>
 
 
 
     <div class="row justify-content-center">
 
-<!-- Static image -->
-<div class="col-lg-3 mt-4 col-md-3 col-sm-6 mb-5 mini_galleri_nye">
-    <a href="nye-varer.php"><div class="view link">
-      <img src="images/galleri_img/galleri_img_12.jpg" class="img-fluid" alt="">
-        <div class="mask flex-center">
-          <p class="overlay_tekst">Se alle nye varer</p>
-         </div>
-    </a>
-</div>
-    
+      <!-- Static image -->
+      <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mb-5 mini_galleri_nye">
+        <a href="nye-varer.php">
+          <div class="view link">
+            <img src="images/galleri_img/galleri_img_12.jpg" class="img-fluid" alt="">
+            <div class="mask flex-center">
+              <p class="overlay_tekst">Se alle nye varer</p>
+            </div>
+        </a>
+      </div>
 
-    <!-- Row end -->
+
+      <!-- Row end -->
     </div>
-<!-- Container end -->
-</div>
+    <!-- Container end -->
+  </div>
 </section>
 
 
