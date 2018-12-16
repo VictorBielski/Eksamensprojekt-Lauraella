@@ -58,7 +58,7 @@ $stmt->execute();
                     </div>
                 </div>
 
-                <form action="delete.php" method="post" class="deletoos">	
+                <form action="delete.php" method="post" class="deleteIcon">	
                     <input type="hidden" name="idg" value="<?=$id?>">
                     <input class="img" type="image" src="images/trash.png" alt="Delete">
                 </form>
@@ -71,7 +71,7 @@ $stmt->execute();
                 <div class="view overlay">
                     <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
                     <div class="mask rgba-blue-grey-strong">
-                        <div class="thetext">
+                        <div class="overlayText">
                         <h1><?=$title?></h1>
                         <p><?=$desc?></p>
                         </div>
