@@ -109,7 +109,7 @@
 
 <!-- Static image -->
 <div class="col-lg-3 mt-4 col-md-3 col-sm-6 mb-5 mini_galleri_nye">
-    <a href="produkter.php"><div class="view link">
+    <a href="nye-varer.php"><div class="view link">
       <img src="images/galleri_img/galleri_img_12.jpg" class="img-fluid" alt="">
         <div class="mask flex-center">
           <p class="overlay_tekst">Se alle nye varer</p>
