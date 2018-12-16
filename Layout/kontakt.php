@@ -14,7 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
         <link rel="stylesheet" href="stylesheets/style.css"  type="text/css">
-    <title>Lauraella</title>
+    <title>Laura Ella</title>
   </head>
   <body>
 

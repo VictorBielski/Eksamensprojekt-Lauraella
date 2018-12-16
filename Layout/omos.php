@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css" />
         <!-- Own stylesheet -->
         <link rel="stylesheet" href="Stylesheets/style.css"  type="text/css">
-    <title>Lauraella</title>
+    <title>Laura Ella</title>
   </head>
   <body>
 

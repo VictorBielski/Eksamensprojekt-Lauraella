@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="/Eksamensprojekt-Lauraella/Layout/Stylesheets/mdb/mdb.min.css" rel="stylesheet">
-    <title>Lauraella</title>
+    <title>Laura Ella</title>
   </head>
   <body>
 
@@ -27,8 +27,8 @@
 <div class="container-fluid" id="header">
   <div class="row">
     <div class="col-12 text-center">
-        <h3><a href="index.php" class="logo">LAURA ELLA</a></h3>
-        <p>~ Alt hvad vi har i Laura Ella er unødvendigt, det gør bare livet lidt hyggeligere. ~</p>
+        <a href="index.php"><img src="/Eksamensprojekt-Lauraella/Layout/images/lauraella_logo.svg" class="img-fluid" id="logo"></a>
+        <p class="mt-4">~ Alt hvad vi har i Laura Ella er unødvendigt, det gør bare livet lidt hyggeligere. ~</p>
     </div>
   </div>
 </div>
@@ -66,6 +66,11 @@
         <li class="nav-item">
       <a class="nav-link" href="kontakt.php">Kontakt</a>
     </li>
+
+    <li class="nav-item" id="bazar_link">
+      <a class="nav-link" href="bazar.php">BAZAR</a>
+    </li>
+
     <?php
     if (isset($_SESSION['users_id'])) { ?>
       <li class="nav-item">
