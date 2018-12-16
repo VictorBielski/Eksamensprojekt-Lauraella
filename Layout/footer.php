@@ -24,10 +24,10 @@
         <div class="col-sm-12 col-md-4 col-lg-4">
             <ul class="footer_ul">
                 <i class="fas fa-map-marker-alt fa-3x"></i>
-                <a href="https://www.google.com/maps/place/Laura+Ella+Brugskunst+og+Bager/@55.593973,12.6703713,17z/data=!3m1!4b1!4m5!3m4!1s0x4653abb3604739a9:0x1ed290517afb0184!8m2!3d55.59397!4d12.6725652">
-                <li class="mt-3 footer_link">Kongevejen 13</li>
-                <li class="mt-2 footer_link">2791 Dragør</li>
-                <li class="mt-2 footer_ink">Danmark</li>
+                <a href="https://www.google.com/maps/place/Kongevejen+13,+2791+Drag%C3%B8r/@55.5939963,12.670347,17z/data=!4m5!3m4!1s0x4653abb3604739a9:0x1f4e8b653e64e01a!8m2!3d55.59397!4d12.6725652" target="_blank">
+                  <li class="mt-3 footer_link">Kongevejen 13</li>
+                  <li class="mt-2 footer_link">2791 Dragør</li>
+                  <li class="mt-2 footer_link">Danmark</li>
                 </a>
             </ul>
             

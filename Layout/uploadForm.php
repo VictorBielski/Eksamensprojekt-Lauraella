@@ -59,7 +59,7 @@
                             <input class="form-control-file mb-4" type="file" name="file" required>
                         </div>
 
-                        Vælg lokation til billede:
+                        Vælg hvor billedet skal indsættes:
                         <select name="pagesid" class="mb-5" required>
                             <?php
                                     require_once('dbcon.php');
