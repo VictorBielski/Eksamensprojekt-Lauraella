@@ -94,7 +94,7 @@ function initMap() {
   // Koordinator til Laura Ella butikken
   var lauraella = {lat: 55.594010, lng: 12.672576};
 
-  // Mappet centreret omkring Laura Ella butikkens location
+  // Mappet centreret omkring Laura Ella butikkens lokation
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 15, center: lauraella});
 

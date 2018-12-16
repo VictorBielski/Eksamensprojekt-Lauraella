@@ -27,7 +27,7 @@
 <div class="container-fluid" id="header">
   <div class="row">
     <div class="col-12 text-center">
-        <a href="index.php"><img src="/Eksamensprojekt-Lauraella/Layout/images/lauraella_logo.svg" class="img-fluid" id="logo"></a>
+        <a href="index.php"><img src="/Eksamensprojekt-Lauraella/Layout/images/nyt_logo-8.png" class="img-fluid" id="logo"></a>
         <p class="mt-4">~ Alt hvad vi har i Laura Ella er unødvendigt, det gør bare livet lidt hyggeligere. ~</p>
     </div>
   </div>
