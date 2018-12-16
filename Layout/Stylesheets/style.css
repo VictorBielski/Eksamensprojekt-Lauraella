@@ -198,6 +198,10 @@ nav .animated-icon1.open span:nth-child(3) {
   list-style: none !important;
 }
 
+#footer ul li {
+  color: #c9d6de !important;
+}
+
 #footer ul .footer_link {
   color: #c9d6de !important;
 }

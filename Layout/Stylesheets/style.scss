@@ -229,6 +229,10 @@ nav {
     ul {
         list-style: none !important;
 
+        li {
+            color: $ikoner_footer_tekst !important;
+        }
+
         .footer_link {
             color: $ikoner_footer_tekst !important;
         }
