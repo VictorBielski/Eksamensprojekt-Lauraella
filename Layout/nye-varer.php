@@ -29,9 +29,9 @@
 
 <div class="container w-75">
 
-    <div class="row text-center">
-        <div class="col-12">
-            <h1>Nye varer</h1>
+    <div class="row text-center justify-content-center">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <h1>Her kan du få overblikket over de nyeste varer i vores sortiment</h1>
         </div>
     </div>
 
@@ -60,7 +60,7 @@ $stmt->execute();
 
                 <form action="delete.php" method="post" class="deleteIcon">	
                     <input type="hidden" name="idg" value="<?=$id?>">
-                    <input class="img" type="image" src="images/trash.png" alt="Delete">
+                    <input class="img" type="image" src="images/trashit.png" alt="Delete">
                 </form>
             <!-- Col end -->
             </div>

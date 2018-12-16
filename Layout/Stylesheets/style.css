@@ -213,6 +213,7 @@ nav .animated-icon1.open span:nth-child(3) {
   background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
   background-size: cover !important;
   background-position: center !important;
+  font-family: 'Slabo 27px', serif !important;
 }
 
 #sortiment .btn {
@@ -224,8 +225,8 @@ nav .animated-icon1.open span:nth-child(3) {
 
 #sortiment .deleteIcon {
   position: absolute;
-  top: 0;
-  right: 20px;
+  top: -20px;
+  right: -3px;
 }
 
 #sortiment .overlayText {

@@ -255,6 +255,7 @@ nav {
     background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
     background-size: cover !important;
     background-position: center !important;
+    font-family: 'Slabo 27px', serif !important;
 
     .btn {
         border-radius: 0 !important;
@@ -265,8 +266,8 @@ nav {
 
     .deleteIcon {
         position: absolute;
-        top: 0;
-        right: 20px;
+        top: -20px;
+        right: -3px;
     }
 
     .overlayText {
