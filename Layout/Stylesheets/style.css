@@ -380,9 +380,10 @@ nav .animated-icon1.open span:nth-child(3) {
   background-size: cover !important;
   background-position: center !important;
   color: #f0f5f9 !important;
+  font-family: 'Slabo 27px', serif !important;
 }
 
-#upload .omtekst {
+#upload .underlay {
   background-color: rgba(0, 0, 0, 0.534) !important;
 }
 

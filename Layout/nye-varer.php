@@ -52,9 +52,11 @@ $stmt->execute();
 
                 <div class="view overlay">
                     <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
-                    <div class="mask flex-center rgba-blue-grey-strong">
-                        <h3><?=$title?></h3>
-                        <p><?=$desc?></p>
+                    <div class="mask rgba-blue-grey-strong">
+                        <div class="overlayText">
+                            <h1><?=$title?></h3>
+                            <p><?=$desc?></p>
+                        </div>
                     </div>
                 </div>
 
@@ -72,8 +74,8 @@ $stmt->execute();
                     <img class="img-fluid" src="uploads/<?=$fullName?>" alt="placeholder image">
                     <div class="mask rgba-blue-grey-strong">
                         <div class="overlayText">
-                        <h1><?=$title?></h1>
-                        <p><?=$desc?></p>
+                            <h1><?=$title?></h1>
+                            <p><?=$desc?></p>
                         </div>
                     </div>
                 </div>

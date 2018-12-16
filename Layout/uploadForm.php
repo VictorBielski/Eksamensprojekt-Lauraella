@@ -30,7 +30,7 @@
 
     <div class="row myRow justify-content-center">
     
-        <div class="col-sm-10 col-md-8 col-lg-6 mt-5 mb-5 p-5 omtekst ">
+        <div class="col-sm-10 col-md-8 col-lg-6 mt-5 mb-5 p-5 underlay ">
 <?php 
         if (isset($_SESSION['users_id'])) { // if logged in ?>
 
@@ -44,15 +44,15 @@
             </div>
     
             <div class="form-group">
-                <input class="form-control" type="text" name="filedesc" placeholder="Pris...">
+                <input class="form-control mb-4" type="text" name="filedesc" placeholder="Pris...">
             </div>
     
             <div class="form-group">
-                <input class="form-control-file" type="file" name="file">
+                <input class="form-control-file mb-4" type="file" name="file">
             </div>
 
             Vælg lokation til billede:
-	            <select name="pagesid" class="mb-3" required>
+	            <select name="pagesid" class="mb-5" required>
         <?php
                 require_once('dbcon.php');
                 $sql = 'SELECT id, name FROM pages';
