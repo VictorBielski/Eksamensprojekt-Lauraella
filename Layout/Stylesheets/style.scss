@@ -1,3 +1,4 @@
+// Variabler til colorsheet
 $header_footer: #1E2022;
 $galleri_hover: #52616a;
 $ikoner_footer_tekst: #c9d6de;
@@ -5,10 +6,12 @@ $textcolor: #f0f5f9;
 $navcolor: rgba(0, 0, 0, 0.534);
 $bazar_overlay: rgba(0, 0, 0, 0.685);
 
+//Font til Laura Ellas nuværrende logo
 @font-face {
     font-family: 'SF Fourche Condensed'; /*a name to be used later*/
     src: url(/Layout/fonts/sffourchecondensed.ttf); /*URL to font*/
 }
+
 
 body {
     width: 100% !important;
@@ -19,39 +22,35 @@ body {
 
 }
 
+// Facebook og Instagram ikoner i toppen
 #socials {
-
+    
     #facebook, #instagram {
         list-style: none !important;
         color: $textcolor !important;
     }
-    
     #facebook:hover, #instagram:hover {
         color: $galleri_hover !important;
         transition: ease-in 0.1s !important;
     }
-    
 }
 
+// Header styling - Logo on moto
 #header {
     font-family: 'Slabo 27px', serif;
     letter-spacing: 1px;
     height: 120px !important;
 
-#logo {
-    width: 400px !important;
-    height: 55px !important;
+    #logo {
+        width: 400px !important;
+        height: 55px !important;
+    }   
+    p {
+        color: $textcolor !important;
+    }
 }
 
-
-
-p {
-    color: $textcolor !important;
-}
-}
-
-
-
+// Navigation styling start
 nav {
     background-color: $navcolor !important;
     box-shadow: none !important;
@@ -90,7 +89,7 @@ nav {
 
     }
 
-
+    // Hamburger menu styling start
     .animated-icon1 {
         width: 30px;
         height: 20px;
@@ -108,88 +107,92 @@ nav {
         }
         
         .animated-icon1 span {
-        display: block;
-        position: absolute;
-        height: 3px;
-        width: 100%;
-        border-radius: 9px;
-        opacity: 1;
-        left: 0;
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-        -webkit-transition: .25s ease-in-out;
-        -moz-transition: .25s ease-in-out;
-        -o-transition: .25s ease-in-out;
-        transition: .25s ease-in-out;
+            display: block;
+            position: absolute;
+            height: 3px;
+            width: 100%;
+            border-radius: 9px;
+            opacity: 1;
+            left: 0;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition: .25s ease-in-out;
+            -moz-transition: .25s ease-in-out;
+            -o-transition: .25s ease-in-out;
+            transition: .25s ease-in-out;
         }
         
         .animated-icon1 span {
-        background-color: $textcolor !important;
-        height: 1px !important;
+            background-color: $textcolor !important;
+            height: 1px !important;
         }
         
         .animated-icon1 span:nth-child(1) {
-        top: 0px;
+            top: 0px;
         }
         
         .animated-icon1 span:nth-child(2) {
-        top: 10px;
+            top: 10px;
         }
         
         .animated-icon1 span:nth-child(3) {
-        top: 20px;
+            top: 20px;
         }
         
         .animated-icon1.open span:nth-child(1) {
-        top: 11px;
-        -webkit-transform: rotate(135deg);
-        -moz-transform: rotate(135deg);
-        -o-transform: rotate(135deg);
-        transform: rotate(135deg);
+            top: 11px;
+            -webkit-transform: rotate(135deg);
+            -moz-transform: rotate(135deg);
+            -o-transform: rotate(135deg);
+            transform: rotate(135deg);
         }
         
         .animated-icon1.open span:nth-child(2) {
-        opacity: 0;
-        left: -60px;
+            opacity: 0;
+            left: -60px;
         }
         
         .animated-icon1.open span:nth-child(3) {
-        top: 11px;
-        -webkit-transform: rotate(-135deg);
-        -moz-transform: rotate(-135deg);
-        -o-transform: rotate(-135deg);
-        transform: rotate(-135deg);
-        }
+            top: 11px;
+            -webkit-transform: rotate(-135deg);
+            -moz-transform: rotate(-135deg);
+            -o-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+            }
+        // Hamburger menu styling slut
 }
+// Navigation styling slut
 
+// //Billede slider forside styling start
 #landing {
     max-height: 300px !important;
     font-family: 'Slabo 27px', serif !important;
     
     #img_carousel {
         max-height: 300px !important;
+
+            .carousel-indicators {
+                max-height: 300px !important;
+            }
     }
 
     .carousel-item {
        max-height: 300px !important;
-    }
-
-    .h2-responsive {
-        color: $textcolor !important;
-        letter-spacing: 5px !important;
-        font-size: 40px !important;
-        margin-bottom: 2% !important;
-        font-weight: bold !important;
-    }
-
-    .carousel-indicators {
-        max-height: 300px !important;
+    
+        .h2-responsive {
+            color: $textcolor !important;
+            letter-spacing: 5px !important;
+            font-size: 40px !important;
+            margin-bottom: 2% !important;
+            font-weight: bold !important;
+        }
     }
 }
+// //Billede slider forside styling slut
 
-
+// "Nye varer" på forisden gilleri styling start
 #mini_gallery {
     background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png);
     height: 100% !important;
@@ -205,52 +208,38 @@ nav {
         .overlay_tekst {
             color: $textcolor !important;
             font-size: 30px !important;
+            cursor: pointer !important;
         }
     }
-
-   .link {
-        cursor: pointer !important;
-        
-
-    .nyeVarer p {
-        font-size: 30px !important;
-
-
 }
-    }
+// "Nye varer" på forisden gilleri styling slut
 
-}
-
+// Footer styling start
 #footer {
     background-color: $navcolor !important;
     color: $ikoner_footer_tekst !important;
     height: 100% !important;
     font-family: 'Slabo 27px', serif !important;
 
-    ul {
-        list-style: none !important;
-    }
-
-    .footer_link {
-        color: $ikoner_footer_tekst !important;
-    }
-
-
-
     .åbningstider_ikon {
         width: 50px !important;
         height: 50px !important;
     }
 
+    ul {
+        list-style: none !important;
 
-
-
-
+        .footer_link {
+            color: $ikoner_footer_tekst !important;
+        }
+    }
 }
+// Footer styling start
+
 //LANDING PAGE SLUT
 
-// SORTIMENT PAGE START
 
+// SORTIMENT PAGE START
 #sortiment {
     background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
     background-size: cover !important;
@@ -288,12 +277,13 @@ nav {
     color: $textcolor !important;
     font-family: 'Slabo 27px', serif !important;
 
+    //Google maps styling
     #map {
         height: 500px !important;
         width: 100% !important;
     }
 
-
+    //Kontakt form styling start
     #kontaktform {
         color: $textcolor !important;
         
@@ -304,9 +294,6 @@ nav {
             border: 0 !important;
             background-color: transparent;
             border-bottom: .5px solid $textcolor !important;
-        }
-
-        input {
             color: $textcolor !important;
         }
 
@@ -319,6 +306,7 @@ nav {
             -webkit-appearance: none !important;
             box-shadow: none !important;
         }
+
         textarea {
             color: $textcolor !important;
         }
@@ -341,10 +329,13 @@ nav {
             padding: 5px !important;
             font-weight: bold !important;
             letter-spacing: 2px !important;
+            margin-bottom: 5% !important;
         }
     }
 }
+//Kontakt form styling start
 
+//Om os side styling slut
 #omos {
     background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
     background-size: cover !important;
@@ -354,16 +345,15 @@ nav {
     .omtekst {
         background-color: $navcolor !important;
         font-family: 'Slabo 27px', serif !important;
-
     }
-
     #om_img2 {
         width: 100% !important;
         height: 100% !important;
     }
-
 }
+//Om os side styling slut
 
+//Bazar side styling start
 #bazar {
     height: 200x !important;
     width: 100% !important;
@@ -378,32 +368,42 @@ nav {
         margin-left: 10% !important;
         margin-right: 10% !important;
         border: 2px solid $galleri_hover !important;
-
-    }
-
-    #demo {
-        transition: ease-in 5s !important;
-        font-size: 25px !important;
-        font-family: 'Anton', sans-serif;
-        letter-spacing: 5px !important;
-    }
-
-    h1 {
-        font-size: 30px !important;
+        // Nedtæller styling start
+        #demo {
+            transition: ease-in 5s !important;
+            font-size: 25px !important;
+            font-family: 'Anton', sans-serif;
+            letter-spacing: 5px !important;
+        }
+         // Nedtæller styling slut
+        h1 {
+            font-size: 30px !important;
+        }
     }
 }
 
 #bazar_intro {
     font-family: 'Slabo 27px', serif !important;
+    background-image: url(/Eksamensprojekt-Lauraella/Layout/images/background.png) !important;
+    background-size: cover !important;
+    background-position: center !important;
 
-    h1 {
-        font-size: 34px !important;
-    }
+    .col-8 {
+        background-color: $navcolor !important;
+        margin: 2% 2% 2% 2% !important;
+        border: 2px solid $galleri_hover !important;
 
-    p {
-        font-size: 18px !important;
+        h1 {
+            font-size: 34px !important;
+        }
+    
+        p {
+            font-size: 18px !important;
+        }
     }
 }
+//Bazar side styling slut
+
 
 // EJER LOGIN STYLING //
 
@@ -486,6 +486,9 @@ nav {
     }
 }
 
+// MEDIA QUERIES START
+
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 
@@ -516,13 +519,10 @@ nav {
             font-family: 'Anton', sans-serif;
             letter-spacing: 5px !important;
         }
-    
         h1 {
             font-size: 45px !important;
         }
     }
-
-    
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
@@ -548,7 +548,6 @@ nav {
             font-family: 'Anton', sans-serif;
             letter-spacing: 5px !important;
         }
-    
         h1 {
             font-size: 45px !important;
         }
@@ -564,17 +563,17 @@ nav {
     #bazar {
         height: 250px !important;
         width: 100% !important;
-    
         #demo {
             transition: ease-in 5s !important;
             font-size: 40px !important;
             font-family: 'Anton', sans-serif;
             letter-spacing: 5px !important;
         }
-    
         h1 {
             font-size: 45px !important;
         }
     }
 
  }
+
+ // MEDIA QUERIES START
