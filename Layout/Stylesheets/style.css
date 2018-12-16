@@ -31,15 +31,9 @@ body {
   height: 120px !important;
 }
 
-#header .logo {
-  font-family: 'SF Fourche Condensed';
-  font-size: 55px !important;
-  color: #f0f5f9;
-  letter-spacing: 5px !important;
-}
-
-#header .logo:hover {
-  color: #52616a !important;
+#header #logo {
+  width: 400px !important;
+  height: 55px !important;
 }
 
 #header p {
@@ -327,6 +321,10 @@ nav .animated-icon1.open span:nth-child(3) {
   background-color: #52616a !important;
   color: #f0f5f9 !important;
   width: 50% !important;
+  font-size: 20px !important;
+  padding: 5px !important;
+  font-weight: bold !important;
+  letter-spacing: 2px !important;
 }
 
 #omos {
@@ -344,6 +342,43 @@ nav .animated-icon1.open span:nth-child(3) {
 #omos #om_img2 {
   width: 100% !important;
   height: 100% !important;
+}
+
+#bazar {
+  height: 300px !important;
+  width: 100% !important;
+  background-image: url(/Eksamensprojekt-Lauraella/Layout/images/bazar_img.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  font-family: 'Slabo 27px', serif !important;
+}
+
+#bazar #bazar_row {
+  background-color: rgba(0, 0, 0, 0.685) !important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  border: 2px solid #52616a !important;
+}
+
+#bazar #demo {
+  -webkit-transition: ease-in 5s !important;
+  transition: ease-in 5s !important;
+  font-size: 50px !important;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px !important;
+}
+
+#bazar_intro {
+  font-family: 'Slabo 27px', serif !important;
+}
+
+#bazar_intro h1 {
+  font-size: 34px !important;
+}
+
+#bazar_intro p {
+  font-size: 18px !important;
 }
 
 #login {
@@ -454,6 +489,16 @@ nav .animated-icon1.open span:nth-child(3) {
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
+  }
+  #demo {
+    -webkit-transition: ease-in 5s !important;
+    transition: ease-in 5s !important;
+    font-size: 60px !important;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px !important;
+  }
+  h1 {
+    font-size: 55px !important;
   }
 }
 
