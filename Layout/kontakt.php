@@ -87,43 +87,35 @@
 
 
     <!-- Optional JavaScript -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/js/mdb.min.js"></script>
-    <script src="scripts/script.js" type="text/javascript"></script>
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/js/mdb.min.js"></script>
+<script src="scripts/script.js" type="text/javascript"></script>
 
 
-    <script>
-        // Initialiser og tilføjer mappet
-        function initMap() {
+<script>
+// Initialiser og tilføjer mappet
+function initMap() {
 
-            // Koordinator til Laura Ella butikken
-            var lauraella = {
-                lat: 55.594010,
-                lng: 12.672576
-            };
+  // Koordinator til Laura Ella butikken
+  var lauraella = {lat: 55.594010, lng: 12.672576};
 
-            // Mappet centreret omkring Laura Ella butikkens location
-            var map = new google.maps.Map(
-                document.getElementById('map'), {
-                    zoom: 15,
-                    center: lauraella
-                });
+  // Mappet centreret omkring Laura Ella butikkens lokation
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 15, center: lauraella});
 
-            // Markering på lokationen
-            var marker = new google.maps.Marker({
-                position: lauraella,
-                map: map
-            });
-        }
-    </script>
+  // Markering på lokationen
+  var marker = new google.maps.Marker({position: lauraella, map: map});
+}
+</script>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfHp9xUg-GsJK9y1_3i9lxZtDkRd_ve50&callback=initMap">
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfHp9xUg-GsJK9y1_3i9lxZtDkRd_ve50&callback=initMap">
     </script>
 
 </body>
