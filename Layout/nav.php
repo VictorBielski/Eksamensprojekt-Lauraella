@@ -17,8 +17,8 @@
   <div class="row">
     <div class="col-12 text-right">
       <ul>
-        <a href="https://www.facebook.com/lauraelladragoer/"><i class="fab fa-facebook fa-2x mt-4 mr-1" id="facebook"></i></a>
-        <a href="https://www.instagram.com/lauraelladragoer/?hl=da"><i class="fab fa-instagram fa-2x mt-4" id="instagram"></i></a>
+        <a href="https://www.facebook.com/lauraelladragoer/" target="_blank"><i class="fab fa-facebook fa-2x mt-4 mr-1" id="facebook"></i></a>
+        <a href="https://www.instagram.com/lauraelladragoer/?hl=da" target="_blank"><i class="fab fa-instagram fa-2x mt-4" id="instagram"></i></a>
       </ul>
     </div>
   </div>
@@ -57,7 +57,7 @@
           aria-expanded="false">Vores sortiment</a>
         <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="nye-varer.php">Nye varer</a>
-          <a class="dropdown-item" href="tilbudsVarer.php">Varer på tilbud</a>
+          <a class="dropdown-item" href="tilbuds-varer.php">Varer på tilbud</a>
         </div>
       </li>
     <li class="nav-item">
@@ -81,7 +81,7 @@
     <?php
     if (isset($_SESSION['users_id'])) { ?>
       <li class="nav-item">
-          <a class="nav-link" href="logout.php">log ud</a>
+          <a class="nav-link" href="logout.php">Log ud</a>
       </li>
     <?php 
     } ?>

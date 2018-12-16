@@ -61,8 +61,8 @@ if (isset($_POST['submit'])) {
 
                             // Uploading image to server
                             move_uploaded_file($fileTempName, $fileDestination);
-
-                            header("Location: produkter.php?upload=success");
+                            
+                            header("Location: uploadForm.php?upload=success");
                         }
                     }
 

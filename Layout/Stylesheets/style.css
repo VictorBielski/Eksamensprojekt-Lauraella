@@ -225,8 +225,8 @@ nav .animated-icon1.open span:nth-child(3) {
 
 #sortiment .deleteIcon {
   position: absolute;
-  top: -20px;
-  right: -3px;
+  top: -4%;
+  right: 1%;
 }
 
 #sortiment .overlayText {
